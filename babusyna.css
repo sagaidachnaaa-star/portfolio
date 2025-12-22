@@ -1,0 +1,880 @@
+.babusyna {
+    margin: 0;
+    background-color: #EBF6FF;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#333
+}
+.babusyna .header {
+    padding: 28px 0;
+}
+.babusyna .container-header {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: nowrap;
+}
+.babusyna .logo a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.2px;
+    white-space: nowrap;
+}
+.babusyna .nav {
+    display: flex;
+    gap: 62px;
+    align-items: center;
+}
+.babusyna .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 62px;
+    align-items: center;
+}
+.babusyna.nav-links a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 500;
+}
+.babusyna .nav-links a:hover {
+    color:#CA380C;
+}
+.babusyna .cv-button {
+    text-decoration: none;
+    color: #EBF6FF;
+    background: #000000;
+    padding: 12px 24px;
+    border-radius: 999px;
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 700;
+    margin-right: 0;
+}
+.babusyna .cv-button:hover {
+    background: #CA380C;
+}
+.babusyna {
+    margin: 0;
+    background-color: #EBF6FF;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#333
+}
+.babusyna .page-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.babusyna.header {
+    padding: 28px 0;
+}
+.babusyna .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.babusyna .container-header {
+    max-width: 1300px;          
+    margin: 0 auto;
+    padding-left: 30px;        
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.babusyna.nav {
+    display: flex;
+    gap: 62px;
+    align-items: center;
+}
+.babusyna .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 62px;
+    align-items: center;
+}
+.babusyna .nav-links a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 500;
+}
+.babusyna .cv-button {
+    text-decoration: none;
+    color: #EBF6FF;
+    background: #000000;
+    padding: 12px 24px;
+    border-radius: 999px;
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 700;
+    margin-right: 0;
+}
+.babusyna .cv-button:hover {
+    background: #CA380C;
+}
+.babusyna .project-page {
+    padding: 90px 0 0;
+}
+.babusyna .back-home a {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    font-weight: 400;
+}
+.babusyna .back-home a:hover {
+    color:#CA380C;
+}
+.babusyna .back-arrow {
+    color: #CA380C
+}
+.babusyna .project-hero {
+    margin-top: 35px;
+    margin-bottom: 26px;
+}
+.babusyna .project-title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.babusyna .project-flag {
+    display: inline-block;
+    font-size: 50px;
+    line-height: 1;
+    flex: 0 0 auto;
+}
+.babusyna .project-title h1 {
+    margin: 0;
+    font-size: 52px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 700;
+    letter-spacing: -0.6px;
+}
+.babusyna .project-hero > span {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    opacity: 0.75;
+}
+.babusyna .project-mockup-container {
+    width: 100%;
+    margin: 0; 
+}
+.babusyna .project-mockup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.babusyna .project-mockup img {
+    max-width: 460px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+.babusyna .about-project {
+    padding: 50px 0 40px;
+}
+.babusyna .about-project-container {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 90px;
+    align-items: start;
+}
+.babusyna .about-project-left h2 {
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 40px;
+    line-height: 0.95;
+    font-weight: 500;
+    color:#CA380C;
+    letter-spacing: -0.6px;
+}
+.babusyna .about-project-right p {
+    margin: 0 0 34px;
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+.babusyna .about-project-info {
+    display: grid;
+    grid-template-columns: 2.1fr 1fr;
+    column-gap: 40px;
+    row-gap: 22px;
+    margin: 0 0 34px;
+}
+.babusyna .about-project-info p {
+    margin: 0;
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 400;
+}
+.babusyna .about-project-info p span {
+    color:#000000;
+    opacity: 0.6;
+    font-weight: 400;
+    margin-right: 14px;
+    font-family: "JetBrains Mono", monospace;
+}
+.babusyna .about-project-links {
+    display: flex;
+    flex-direction: column;
+    gap: 22px
+}
+.babusyna .about-project-links a {
+    display: grid;
+    grid-template-columns: 64px 1fr 56px;
+    column-gap: 24px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 22px;
+    text-decoration: none;
+    color:#000000
+}
+.babusyna .about-project-links a > :first-child{
+    width: 44px;
+    height: 44px;
+    display: grid;
+    place-items: center;
+}
+.babusyna .about-project-links a > img:first-child{
+    width: 44px;
+    height: 44px;
+    display: block;
+    object-fit: contain;
+}
+.babusyna .about-project-links a > span:first-child{
+    width: 44px;
+    height: 44px;
+    display: grid;
+    place-items: center;
+    line-height: 1;
+    font-size: 26px;
+}
+.babusyna .about-project-links a span:nth-child(2) {
+    font-family: "Helvetica Neue", monospace;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    flex: 1;
+}
+.babusyna .about-project-links a:hover span:nth-child(2) {
+    color:#CA380C;
+}
+.babusyna .about-project-links a span:last-child {
+    width: 35px;
+    height: 35px;
+    border-radius: 15px;
+    background: #000;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    line-height: 1;
+    flex: 0 0 44px;
+}
+.babusyna .about-project-links a .link-text{
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 1.1;
+}
+.babusyna .about-project-links a:hover span:last-child {
+    background: #CA380C;
+}
+.babusyna .about-project-divider {
+    height: 1px;
+    background: rgba(0,0,0,0.55);
+    margin: 26px 0;
+}
+.babusyna.grey-card {
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 26px;
+    padding: 26px;
+}
+.babusyna .about-project-cards {
+    margin-top: 50px;
+}
+.babusyna .about-project-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: stretch;
+}
+.babusyna .about-project-cards img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+.babusyna .responsibilities-container {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 90px;
+    align-items: start;
+}
+.babusyna .challenges-container{
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 90px;
+    align-items: start;
+    margin-top: 40px;
+}
+.babusyna .responsibilities-left h2,
+.babusyna .challenges-left h2 {
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 40px;
+    font-weight: 500;
+    color: #CA380C;
+    letter-spacing: -0.6px;
+}
+.babusyna .responsibilities-right p,
+.babusyna .challenges-right p {
+    margin: 0;
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+.babusyna .responsibilities-divider,
+.babusyna .challenges-divider {
+    height: 1px;
+    background: rgba(0,0,0,0.55);
+    margin: 40px 0;
+}
+.babusyna .responsibilities-mockups {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+}
+.babusyna .responsibilities-mockups img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+.babusyna .responsibilities-mockups {
+    margin-top: 50px;
+}
+.babusyna .UX-research-container {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 90px;
+    align-items: start;
+}
+.babusyna .UX-research-left h2 {
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 40px;
+    line-height: 0.95;
+    font-weight: 500;
+    color: #CA380C;
+    letter-spacing: -0.6px;
+}
+.babusyna .UX-research-right {
+    justify-self: stretch;
+    width: 100%
+}
+.babusyna .UX-research-right p {
+    margin: 0;
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+    max-width: none;
+}
+.babusyna .UX-research-divider {
+    height: 1px;
+    background: rgba(0,0,0,0.55);
+    margin: 44px 0;
+}
+.babusyna .IA-container {
+    display: block;
+    grid-template-columns: 380px 1fr;
+    gap: 90px;
+    align-items: start;
+    padding-top: 10px;
+}
+.babusyna .IA-left h2 {
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 44px;
+    line-height: 0.95;
+    font-weight: 500;
+    color: #CA380C;
+    letter-spacing: -0.6px;
+    padding-bottom: 30px;
+}
+.babusyna .IA-image {
+    display: flex;
+    justify-content: center;
+}
+.babusyna .IA-image img {
+    width: min(100%, 980px);
+    height: auto;
+    display: block;
+}
+.babusyna .IA-right p {
+    margin: 30px 0 0;
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+    max-width: none;
+}
+.babusyna .IA-divider {
+    height: 1px;
+    background: rgba(0,0,0,0.55);
+    margin: 40px 0;
+}
+.babusyna .user-flow-container {
+    display: block;
+    grid-template-columns: 380px 1fr;
+    gap: 90px;
+    align-items: start;
+    padding-top: 10px;
+}
+.babusyna .user-flow-left h2 {
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 44px;
+    line-height: 0.95;
+    font-weight: 500;
+    color: #CA380C;
+    letter-spacing: -0.6px;
+    padding-bottom: 30px;
+}
+.babusyna .user-flow-right p {
+    margin: 30px 0 0;
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+    max-width: none;
+}
+.babusyna .wireframes-section {
+    padding: 0 0 10px;
+}
+.babusyna .wireframes-container h2 {
+    margin: 0 0 22px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 40px;
+    line-height: 0.95;
+    font-weight: 500;
+    color: #CA380C;
+    letter-spacing: -0.6px;
+}
+.babusyna .wireframes-box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 40px;
+    padding: 60px 40px;
+}
+.babusyna .wireframes-box img {
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+.babusyna .wireframes-divider {
+    height: 1px;
+    background: rgba(0,0,0,0.55);
+    margin: 40px 0;
+}
+.babusyna .user-flow-divider {
+    height: 1px;
+    background: rgba(0,0,0,0.55);
+    margin: 40px 0;
+}
+.babusyna .final-design-container {
+    display: block;
+    grid-template-columns: 380px 1fr;
+    gap: 90px;
+    align-items: start;
+}
+.babusyna .final-design-left h2 {
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 40px;
+    line-height: 0.95;
+    font-weight: 500;
+    color: #CA380C;
+    letter-spacing: -0.6px;
+}
+.babusyna .final-design-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    padding: 60px 70px;
+    margin-top: 30px;
+}
+.babusyna .final-design-card img {
+    max-width: 460px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+.babusyna .final-design-text {
+    margin-top: 32px;
+}
+.babusyna .final-design-text p {
+    margin: 0 0 24px;
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+.babusyna .gallery-section {
+    padding: 40px 0 80px;
+}
+.babusyna .gallery-container {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+}
+.babusyna .gallery-box1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 40px;
+    padding: 40px 80px;
+    height: auto;
+}
+.babusyna .gallery-box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    padding: 60px 70px;
+    margin-top: 30px;
+}
+.babusyna .gallery-box2 img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+}
+.babusyna .gallery-box1 img{
+    height: 400px;
+    width: auto;
+    display: block;
+    object-fit: contain; 
+}
+.babusyna .gallery-box2 img{
+    max-width: 460px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+@media (max-width: 1024px) {
+    .babusyna .page-container {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .babusyna .container-header {
+        gap: 24px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .babusyna .logo a {
+        font-size: 20px;
+    }
+    .babusyna .nav{
+        gap: 28px;
+    }
+    .babusyna .nav-links{
+        gap: 28px;
+    }
+    .babusyna .nav-links a {
+        font-size: 16px;
+    }
+    .babusyna .cv-button {
+        font-size: 16px;
+        padding: 10px 18px;
+    }
+    .babusyna .project-title h1 {
+        font-size: 44px;
+    }
+    .babusyna .project-flag {
+        font-size: 44px;
+     }
+    .babusyna .project-mockup{
+        gap: 40px;
+     }
+    .babusyna .project-mockup img{
+        max-width: 420px;
+    }
+    .babusyna .grey-card{
+        padding: 22px;
+    }
+    .babusyna .about-project-container {
+        grid-template-columns: 320px 1fr;
+        gap: 50px;
+    }
+    .babusyna .responsibilities-container {
+        grid-template-columns: 320px 1fr;
+        gap: 50px;
+    }
+    .babusyna .challenges-container {
+        grid-template-columns: 320px 1fr;
+        gap: 50px;
+    }
+    .babusyna .UX-research-container {
+        grid-template-columns: 320px 1fr;
+        gap: 50px;
+    }
+    .babusyna .about-project-left h2,
+    .babusyna .responsibilities-left h2,
+    .babusyna .challenges-left h2,
+    .babusyna .UX-research-left h2{
+        font-size: 36px;
+    }
+    .babusyna .about-project-right p,
+    .babusyna .responsibilities-right p,
+    .babusyna .challenges-right p,
+    .babusyna .UX-research-right p{
+        font-size: 20px;
+    }
+    .babusyna .responsibilities-mockups {
+        gap: 20px;
+    }
+    .babusyna .UP-container {
+        display: grid;
+        grid-template-columns: 320px 1fr;
+        gap: 50px;
+        align-items: start;
+    }
+    .babusyna .empathy-container {
+        display: grid;
+        grid-template-columns: 320px 1fr;
+        gap: 50px;
+        align-items: start;
+    }
+    .babusyna .UP-left h2,
+    .babusyna .empathy-left h2 {
+        font-size: 40px;
+        padding-top: 0;
+    }
+    .babusyna .empathy-card {
+        margin-top: 14px;
+    }
+    .babusyna .UP-right > p,
+    .babusyna .empathy-right > p {
+        font-size: 20px;
+    }
+    .babusyna.final-design-container > h2 {
+        font-size: 40px;
+    }
+    .babusyna .before-after {
+        gap: 40px;
+    }
+    .babusyna .before-after h3{
+        font-size: 26px;
+    }
+    .babusyna .before-after p{
+        font-size: 20px;
+        margin-bottom: 34px;
+    }
+}
+@media (max-width: 768px) {
+    .babusyna .page-container {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    .babusyna .container-header {
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 14px;
+    }
+    .babusyna .logo a {
+        font-size: 20px;
+    }
+    .babusyna .nav {
+        width: 100%;
+        justify-content: space-between;
+        gap: 14px;
+    }
+    .babusyna .nav-links{
+        gap: 18px;
+        flex-wrap: wrap;
+    }
+    .babusyna .project-page{
+        padding-top: 60px;
+    }
+    .babusyna .back-home a{
+        font-size: 18px;
+        gap: 12px;
+    }
+    .babusyna .cv-button {
+        font-size: 16px;
+        padding: 10px 18px;
+    }
+    .babusyna .project-title h1 {
+        font-size: 38px;
+    }
+    .babusyna.project-flag {
+        font-size: 38px;
+     }
+    .babusyna .project-mockup{
+        flex-direction: column;
+        gap: 22px;
+     }
+    .babusyna .project-mockup img{
+        max-width: 520px;
+    }
+    .babusyna .about-project-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+    .babusyna .responsibilities-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+    .babusyna .challenges-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+    .babusyna .UX-research-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+    .babusyna .UP-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+    .babusyna .empathy-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+    .babusyna .about-project-left h2,
+    .babusyna .responsibilities-left h2,
+    .babusyna .challenges-left h2,
+    .babusyna .UX-research-left h2,
+    .babusyna .UP-left h2,
+    .babusyna .empathy-left h2 {
+        font-size: 34px;
+        line-height: 1.05;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    .babusyna .about-project-right p,
+    .babusyna .responsibilities-right p,
+    .babusyna .challenges-right p,
+    .babusyna .UX-research-right p,
+    .babusyna .UP-right > p,
+    .babusyna .empathy-right > p {
+        font-size: 18px;
+        line-height: 1.7;
+    }
+    .babusyna .about-project-info {
+        grid-template-columns: 1fr;
+        row-gap: 12px;
+    }
+    .babusyna .about-project-info p{
+        font-size: 18px;
+    }
+    .babusyna .about-project-links a {
+        grid-template-columns: 44px 1fr 44px;
+        column-gap: 14px;
+    }
+    .babusyna .about-project-links a span:nth-child(2){
+        font-size: 20px;
+    }
+    .babusyna .responsibilities-mockups {
+        grid-template-columns: 1fr;
+        gap: 18px;
+        margin-top: 24px;
+    }
+    .babusyna .before-after {
+        grid-template-columns: 1fr;
+        gap: 28px;
+    }
+    .babusyna .final-design-container > h2{
+        font-size: 34px;
+    }
+    .babusyna .before-after h3{
+        font-size: 24px;
+    }
+    .babusyna .final-design-section .grey-card{
+        margin-bottom: 18px;
+    }
+    .babusyna .before-after p{
+        margin-bottom: 28px;
+    }
+    .babusyna .responsibilities-divider,
+    .babusyna .challenges-divider,
+    .babusyna .UX-research-divider,
+    .babusyna .UP-divider,
+    .babusyna .empathy-divider{
+        margin: 28px 0;
+    }
+    .babusyna .responsibilities-mockups{
+        grid-template-columns: 1fr;
+    }
+    .babusyna .responsibilities-mockups{
+        display: flex;
+        flex-direction: column;
+    }
+    .babusyna .gallery-box1,
+    .babusyna .gallery-box2{
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+        padding: 24px;
+    }
+    .babusyna .gallery-box1 img{
+        height: auto;
+        width: 100%;
+        max-width: 420px;
+    }
+    .babusyna .gallery-box2 img{
+        max-width: 520px;
+    }
+    .babusyna .wireframes-box {
+        padding: 22px 18px;
+        gap: 18px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .babusyna .wireframes-box img {
+        max-width: 260px;
+    }
+    .babusyna .final-design-card {
+        padding: 22px 18px;
+        gap: 18px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
