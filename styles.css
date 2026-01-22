@@ -76,9 +76,6 @@ body {
     row-gap: 34px;
     align-items: start;
 }
-.hero-left {
-    grid-column: 1 / 2;
-}
 .hero-location {
     display: flex;
     align-items: center;
