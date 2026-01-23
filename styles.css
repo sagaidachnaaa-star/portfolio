@@ -156,8 +156,8 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     justify-content: start;
-    margin-top: 20px;
-    margin-bottom: 26px;
+    margin-top: 10px;
+    margin-bottom: 16px;
 }
 .description1 p {
     margin: 0;
