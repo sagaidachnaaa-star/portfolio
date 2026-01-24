@@ -529,14 +529,14 @@
 }
 .ucsos-page .wireframes-box {
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    gap: 40px;
+    justify-content: column;
+    gap: 31px;
     padding: 60px 40px;
+    border-radius: 30px;
 }
 .ucsos-page .wireframes-box img {
     width: 100%;
-    max-width: 360px;
+    max-width: none;
     height: auto;
     display: block;
     object-fit: contain;
