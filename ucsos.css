@@ -165,40 +165,16 @@
     font-weight: 500;
     opacity: 0.75;
 }
-.ucsos-page .project-mockup-container {
-    display: grid;
-    grid-template-columns: 1.4fr 1fr;
-    gap: 34px;
-    align-items: center;
-    padding: 30px;
-    width: 100%;
-    justify-self: stretch;
-    
+.ucsos-page .project-mockups{
+  margin-top: 22px;
 }
-.ucsos-page .project-mockup-left img {
-    width: 463px;
-    height: auto;
-    display: flex;
-    object-fit: contain;
-    margin-left: 72px;
-}
-.ucsos-page .project-mockup-right {
-    display: flex;
-    gap: 15px;
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: 72px;
-}
-.ucsos-page .project-mockup-right img {
-    width: 151px;
-    height: auto;
-    display: flex;
-    object-fit: contain;
-}
-.ucsos-page .project-mockup-container grey-card {
-    width: 100%;
-    max-width: none;
-    margin: 0;
+.ucsos-page .project-hero-image{
+  width: 100%;
+  max-width: 1200px; 
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 30px;
 }
 .ucsos-page .about-project {
     padding: 50px 0 40px;
@@ -317,9 +293,8 @@
     margin: 26px 0;
 }
 .ucsos-page .grey-card {
-    background-color: rgba(0,0,0,0.1);
-    border-radius: 26px;
-    padding: 26px;
+    background: transparent;
+    padding: 0;
 }
 .ucsos-page .about-project-cards {
     margin-top: 50px;
