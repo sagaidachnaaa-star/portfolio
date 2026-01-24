@@ -518,27 +518,25 @@
 .ucsos-page .wireframes-section {
     padding: 0 0 10px;
 }
-.ucsos-page .wireframes-container h2 {
-    margin: 0 0 22px;
-    font-family: "JetBrains Mono", monospace;
-    font-size: 40px;
-    line-height: 0.95;
-    font-weight: 500;
-    color: #CA380C;
-    letter-spacing: -0.6px;
+.ucsos-page .wireframes-title{
+  margin: 0 0 22px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 40px;
+  line-height: 0.95;
+  font-weight: 500;
+  color: #CA380C;
+  letter-spacing: -0.6px;
 }
 .ucsos-page .wireframes-box {
     display: flex;
     flex-direction: column;
     gap: 31px;
-    margin-left: -24px;
-    margin-right: -24px;
+    width: 100%;
 }
 .ucsos-page .wireframes-box img {
     width: 100%;
     height: auto;
     display: block;
-    max-width: none;
 }
 .ucsos-page .final-design-container {
     display: block;
