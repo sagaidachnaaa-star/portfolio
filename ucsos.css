@@ -298,18 +298,13 @@
 }
 .ucsos-page .about-project-cards {
     margin-top: 50px;
-}
-.ucsos-page .about-project-cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    align-items: stretch;
+    display: block;
 }
 .ucsos-page .about-project-cards img {
     width: 100%;
     height: auto;
     display: block;
-    object-fit: contain;
+    border-radius: 30px;
 }
 .ucsos-page .responsibilities-container,
 .ucsos-page .challenges-container{
