@@ -170,7 +170,7 @@
 }
 .ucsos-page .project-hero-image{
   width: 100%;
-  max-width: 1300px; 
+  max-width: none;
   height: auto;
   display: block;
   margin: 0 auto;
