@@ -329,24 +329,23 @@
     line-height: 1.7;
     font-weight: 400;
 }
-.ucsos-page .responsibilities-divider,
-.ucsos-page .challenges-divider {
+.ucsos-page .responsibilities-divider {
     height: 1px;
     background: rgba(0,0,0,0.55);
     margin: 40px 0;
 }
 .ucsos-page .mobile-block.grey-card {
-    padding: 10px 80px;
+    background: rgba(0, 0, 0, 0.1);
+    border_radius: 30px;
+    padding: 70px 90px;
 }
-.ucsos-page .mobile-block {
+.ucsos-page .mobile-mockups {
     display: flex;
     justify-content: center;
     align-items: flex-end;
     gap: 40px;
-    padding: 40px 80px;
-    height: auto;
 }
-.ucsos-page .mobile-block img {
+.ucsos-page .mobile-mockups img {
     height: 400px;
     width: auto;
     display: block;
@@ -941,4 +940,17 @@
     .ucsos-page .footer a {
         font-size: 16px;
     }
+}
+@media (max-width: 900px) {
+  .ucsos-page .mobile-block.grey-card {
+    padding: 40px 24px;
+  }
+
+  .ucsos-page .mobile-mockups {
+    gap: 20px;
+  }
+
+  .ucsos-page .mobile-mockups img {
+    height: 320px;
+  }
 }
