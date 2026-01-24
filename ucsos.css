@@ -337,17 +337,19 @@
 .ucsos-page .mobile-block.grey-card {
     background: rgba(0, 0, 0, 0.1);
     border_radius: 30px;
+    max_width: 1194px;
+    margin: 40px auto 0;
     padding: 70px 90px;
 }
 .ucsos-page .mobile-mockups {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    gap: 40px;
+    gap: 31px;
 }
 .ucsos-page .mobile-mockups img {
-    height: 400px;
-    width: auto;
+    height: 596px;
+    width: 276px;
     display: block;
     object-fit: contain;
 }
