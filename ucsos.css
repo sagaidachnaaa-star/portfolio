@@ -531,22 +531,11 @@
     display: flex;
     flex-direction: column;
     gap: 31px;
-    max-width: 1194px;
-    margin: 0 auto;
-    overflow: hidden;
-    border-radius: 30px;
 }
 .ucsos-page .wireframes-box img {
     width: 100%;
-    max-width: 100%;
     height: auto;
     display: block;
-    object-fit: contain;
-}
-.ucsos-page .wireframes-divider {
-    height: 1px;
-    background: rgba(0,0,0,0.55);
-    margin: 40px 0;
 }
 .ucsos-page .final-design-container {
     display: block;
