@@ -608,23 +608,20 @@
 .ucsos-page .gallery-grey{
     width: 100%;
     background: rgba(0,0,0,0.10);
-    margin-top: 60px;
-    padding: 60px 0;
+    margin-top: 50px;
+    padding: 70px 90px;
+    border-radius: 30px;
+    box-sizing: border-box;
 }
 .ucsos-page .gallery-mobiles{
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: 0 30px;
-
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  gap: 40px;
+  gap: 31px;
 }
-
 .ucsos-page .gallery-mobiles img{
-  height: 400px;
-  width: auto;
+  height: 596px;
+  width: 276px;
   display: block;
   object-fit: contain;
 }
