@@ -576,7 +576,9 @@
     margin-top: 34px;
     padding: 0;
     max-width: 900px;
-    align-item: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .ucsos-page .final-design-text p {
     margin: 0 0 24px;
