@@ -593,40 +593,40 @@
     flex-direction: column;
     gap: 46px;
 }
-.ucsos-page .gallery-box1 {
+.ucsos-page .gallery-desktop{
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    gap: 40px;
-    padding: 40px 80px;
-    height: auto;
+    flex-direction: column;
+    gap: 46px;
 }
-.ucsos-page .gallery-box2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 90px;
-    padding: 60px 70px;
-    margin-top: 30px;
-}
-.ucsos-page .gallery-box2 img {
-    display: block;
-    height: auto;
-    max-width: 100%;
-    object-fit: contain;
-}
-.ucsos-page .gallery-box1 img{
-    height: 400px;
-    width: auto;
-    display: block;
-    object-fit: contain; 
-}
-.ucsos-page .gallery-box2 img{
-    max-width: 460px;
+
+.ucsos-page .gallery-desktop img{
     width: 100%;
     height: auto;
-    object-fit: contain;
     display: block;
+    border-radius: 30px;
+}
+.ucsos-page .gallery-grey{
+    width: 100%;
+    background: rgba(0,0,0,0.10);
+    margin-top: 60px;
+    padding: 60px 0;
+}
+.ucsos-page .gallery-mobiles{
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 40px;
+}
+
+.ucsos-page .gallery-mobiles img{
+  height: 400px;
+  width: auto;
+  display: block;
+  object-fit: contain;
 }
 .ucsos-page .contact {
     padding: 40px 0 40px;
@@ -807,6 +807,14 @@
     .ucsos-page .footer {
         margin-top: 48px;
     }
+    @media (max-width: 1024px){
+  .ucsos-page .gallery-mobiles{
+    padding: 0 24px;
+    gap: 28px;
+  }
+  .ucsos-page .gallery-mobiles img{
+    height: 340px;
+  }
 }
 @media (max-width: 768px) {
     .ucsos-page .page-container,
@@ -941,6 +949,17 @@
     .ucsos-page .footer a {
         font-size: 16px;
     }
+    .ucsos-page .gallery-grey{
+    padding: 40px 0;
+  }
+  .ucsos-page .gallery-mobiles{
+    padding: 0 16px;
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+  .ucsos-page .gallery-mobiles img{
+    height: 300px;
+  }
 }
 @media (max-width: 900px) {
   .ucsos-page .mobile-block.grey-card {
