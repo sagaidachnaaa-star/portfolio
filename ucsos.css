@@ -573,18 +573,17 @@
     border-radius: 30px;
 }
 .ucsos-page .final-design-text {
-    margin-top: 34px;
+    margin-top: 34px auto 0;
     padding: 0;
     max-width: 900px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: left;
 }
 .ucsos-page .final-design-text p {
     margin: 0 0 24px;
     font-size: 22px;
     line-height: 1.7;
     font-weight: 400;
+    text-align: left;
 }
 .ucsos-page .gallery-section {
     padding: 40px 0 80px;
