@@ -564,13 +564,13 @@
     width: 100%;
     margin-top: 30px;
     padding: 0;
-    max-width: 1194px;
+    max-width: 1240px;
 
     display: flex;
     justify-content: center;
 }
 .babusyna .gallery-box2 img {
-    max-width: 1194px;
+    max-width: 1240px;
     width: 100%;
     height: auto;
     object-fit: contain;
