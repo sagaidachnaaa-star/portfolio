@@ -354,12 +354,6 @@
     background: rgba(0,0,0,0.55);
     margin: 40px 0;
 }
-.ecosexual-page .responsibilities-mockups img {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: contain;
-}
 .ecosexual-page .responsibilities-mockups.mockup-single{
     display: block;
     margin: 50px 0;
