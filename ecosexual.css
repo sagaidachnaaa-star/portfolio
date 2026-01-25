@@ -362,16 +362,17 @@
 }
 .ecosexual-page .responsibilities-mockups.mockup-single{
     display: block;
-    margin: 50px auto;
-    max-width: 1300px;
-    padding: 0 30px;
+    margin: 50px 0;
+    max-width: none;
+    padding: 0;
+    width: 100%;
     background: transparent;
 }
 .ecosexual-page .responsibilities-mockups.mockup-single img{
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 30px;
+    border-radius: 0;
 }
 .ecosexual-page .UX-research-container {
     display: grid;
