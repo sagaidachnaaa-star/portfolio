@@ -543,7 +543,7 @@
     padding: 70px 0 30px;
 }
 .ucsos-page .final-design-container {
-    display: grid;
+    display: block;
     grid-template-columns: 380px 1fr;
     gap: 90px;
     align-items: start;
@@ -566,6 +566,7 @@
     gap: 60px;
     padding: 60px 70px;
     justify-content: center;
+    width: 100%;
 
     background: transparent;
     border-radius: 0;
