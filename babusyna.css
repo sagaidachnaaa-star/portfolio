@@ -186,6 +186,7 @@
 .babusyna .project-mockup {
     display: flex;
     align-items: center;
+    margin: 50px 0;
 }
 .babusyna .project-mockup img {
     max-width: 100%;
@@ -193,6 +194,7 @@
     height: auto;
     border-radius: 30px;
     display: block;
+    margin: 50 px 0;
 }
 .babusyna .about-project {
     padding: 50px 0 40px;
