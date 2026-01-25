@@ -307,21 +307,10 @@
     background: rgba(0,0,0,0.55);
     margin: 26px 0;
 }
-.ecosexual-page .grey-card {
-    background-color: rgba(0,0,0,0.1);
-    border-radius: 26px;
-    padding: 26px;
+.ecosexual-page .mockup-single{
+    display: block;
 }
-.ecosexual-page .about-project-cards {
-    margin-top: 50px;
-}
-.ecosexual-page .about-project-cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    align-items: stretch;
-}
-.ecosexual-page .about-project-cards img {
+.ecosexual-page .mockup-single img{
     width: 100%;
     height: auto;
     display: block;
