@@ -178,22 +178,18 @@
     font-weight: 500;
     opacity: 0.75;
 }
-.ecosexual-page .project-mockup-container {
+.ecosexual-page .project-mockup-container.grey-card {
     width: 100%;
     margin: 0; 
+    padding: 0;
+    background: transparent;
 }
-.ecosexual-page .project-mockup {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 90px;
-}
-.ecosexual-page .project-mockup img {
-    max-width: 460px;
+.ecosexual-page .project-mockup-image {
+    max-width: none;
     width: 100%;
     height: auto;
-    object-fit: contain;
     display: block;
+    border-radius: 30px;
 }
 .ecosexual-page .about-project {
     padding: 50px 0 40px;
