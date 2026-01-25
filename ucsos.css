@@ -806,9 +806,6 @@
     .ucsos-page .footer {
         margin-top: 48px;
     }
-    .ucsos-page .final-design-section{ 
-        padding-top: 70px; 
-    }
 }
 @media (max-width: 768px) {
     .ucsos-page .page-container,
