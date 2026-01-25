@@ -337,8 +337,8 @@
 }
 .ucsos-page .mobile-block.grey-card {
     background: rgba(0, 0, 0, 0.1);
-    border_radius: 30px;
-    max_width: 1194px;
+    border-radius: 30px;
+    max-width: 1194px;
     margin: 40px auto 0;
     padding: 70px 90px;
 }
