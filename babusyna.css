@@ -378,6 +378,7 @@
     grid-template-columns: 380px 1fr;
     gap: 90px;
     align-items: start;
+    margin-top: 50px;
 }
 .babusyna .UX-research-left h2 {
     margin: 0;
