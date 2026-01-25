@@ -311,25 +311,16 @@
     background: rgba(0,0,0,0.55);
     margin: 26px 0;
 }
-.babusyna.grey-card {
-    background-color: rgba(0,0,0,0.1);
-    border-radius: 26px;
-    padding: 26px;
+.babusyna .project-mockup-container{
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
 }
-.babusyna .about-project-cards {
-    margin-top: 50px;
-}
-.babusyna .about-project-cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    align-items: stretch;
-}
-.babusyna .about-project-cards img {
+.babusyna .project-mockup-full{
     width: 100%;
     height: auto;
     display: block;
-    object-fit: contain;
+    border-radius: 30px;
 }
 .babusyna .responsibilities-container {
     display: grid;
@@ -591,6 +582,11 @@
     height: auto;
     object-fit: contain;
     display: block;
+}
+.babusyna .grey-card{
+    background: transparent !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
 }
 @media (max-width: 1024px) {
     .babusyna .page-container {
