@@ -563,12 +563,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 90px;
     padding: 60px 70px;
     margin-top: 30px;
 }
 .babusyna .gallery-box2 img {
-    max-width: 460px;
+    max-width: 100%;
     width: 100%;
     height: auto;
     object-fit: contain;
