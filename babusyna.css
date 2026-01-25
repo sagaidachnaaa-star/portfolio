@@ -467,9 +467,6 @@
     font-weight: 400;
     max-width: none;
 }
-.babusyna .wireframes-section {
-    padding: 0 0 10px;
-}
 .babusyna .wireframes-container h2 {
     margin: 0 0 22px;
     font-family: "JetBrains Mono", monospace;
@@ -479,16 +476,14 @@
     color: #CA380C;
     letter-spacing: -0.6px;
 }
-.babusyna .wireframes-box {
+.babusyna .wireframes-box.wireframes-stack{
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    gap: 40px;
-    padding: 60px 40px;
+    flex-direction: column;
+    gap: 40px;           
+    padding: 0;          
 }
-.babusyna .wireframes-box img {
+.babusyna .wireframes-box.wireframes-stack img{
     width: 100%;
-    max-width: 360px;
     height: auto;
     display: block;
     object-fit: contain;
