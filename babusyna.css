@@ -515,15 +515,15 @@
 }
 .babusyna .final-design-card {
     display: flex;
-    align-items: center;
+    align-items: column;
     justify-content: center;
-    gap: 90px;
-    padding: 60px 70px;
+    gap: 31px;
+    padding: 0;
     margin-top: 30px;
 }
 .babusyna .final-design-card img {
-    max-width: 460px;
-    width: 100%;
+    max-width: 100%;
+    max-width: none;
     height: auto;
     object-fit: contain;
     display: block;
