@@ -359,10 +359,9 @@
     margin: 40px 0;
 }
 .babusyna .responsibilities-mockups {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    align-items: center;
+    width: 100%;
+    height: auto;
+    display: block;
 }
 .babusyna .responsibilities-mockups img {
     width: 100%;
