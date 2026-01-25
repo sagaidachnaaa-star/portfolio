@@ -540,13 +540,12 @@
     display: block;
 }
 .ucsos-page .final-design-section {
-    padding: 0px 0 30px;
+    padding: 70px 0 30px;
 }
 .ucsos-page .final-design-container {
-    display: block;
-    grid-template-columns: 380px 1fr;
-    gap: 90px;
-    align-items: start;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
 }
 .ucsos-page .final-design-left h2 {
     margin: 0;
@@ -557,10 +556,10 @@
     color: #CA380C;
     letter-spacing: -0.6px;
 }
+.ucsos-page .final-design-right{
+    width: 100%;
+}
 .ucsos-page .final-design-card{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 100%;
 
     background: transparent;
@@ -568,72 +567,22 @@
     padding: 0;
 }
 .ucsos-page .final-design-card img {
-    max-width: 1194px;
     width: 100%;
     height: auto;
-    object-fit: contain;
     display: block;
+    border-radius: 30px;
 }
 .ucsos-page .final-design-text {
-    margin-top: 40px;
-    padding-left: 120px;
-    padding-right: 120px;
-    max-width: 1100px;
+    margin-top: 34px;
+    padding: 0;
+    max-width: 900px;
+    align-item: center;
 }
 .ucsos-page .final-design-text p {
     margin: 0 0 24px;
     font-size: 22px;
     line-height: 1.7;
     font-weight: 400;
-}
-.ucsos-page .final-design-section {
-  padding: 70px 0 30px;
-}
-
-.ucsos-page .final-design-container {
-  display: grid;
-  grid-template-columns: 380px 1fr;
-  gap: 90px;
-  align-items: start;
-}
-
-.ucsos-page .final-design-left h2 {
-  margin: 0;
-  font-family: "JetBrains Mono", monospace;
-  font-size: 40px;
-  line-height: 0.95;
-  font-weight: 500;
-  color: #CA380C;
-  letter-spacing: -0.6px;
-}
-
-.ucsos-page .final-design-right {
-  margin-top: 0;
-}
-
-.ucsos-page .final-design-image {
-  background: #D7DDE2;
-  border-radius: 28px;
-  padding: 40px;
-}
-
-.ucsos-page .final-design-image img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 20px;
-}
-
-.ucsos-page .final-design-text {
-  margin-top: 34px;
-  max-width: 900px;
-}
-
-.ucsos-page .final-design-text p {
-  margin: 0 0 24px;
-  font-size: 22px;
-  line-height: 1.7;
-  font-weight: 400;
 }
 .ucsos-page .gallery-section {
     padding: 40px 0 80px;
