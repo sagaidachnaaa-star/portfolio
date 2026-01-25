@@ -519,6 +519,14 @@
 .ecosexual-page .final-design-section .grey-card {
     margin-bottom: 26px;
 }
+.ecosexual-page .grey-card{
+    background: transparent !important;
+    padding: 0 !important;
+    border-radius: 0 !important; /* сам радіус дамо картинкам */
+}
+.ecosexual-page img{
+    border-radius: 30px;
+}
 @media (max-width: 1024px) {
     .ecosexual-page .page-container {
         padding-left: 24px;
