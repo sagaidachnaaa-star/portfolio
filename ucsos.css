@@ -517,7 +517,7 @@
     margin: 40px 0;
 }
 .ucsos-page .wireframes-section {
-    padding: 0 0 90px;
+    padding: 0 0 50px;
 }
 .ucsos-page .wireframes-title{
   margin: 0 0 22px;
@@ -540,7 +540,7 @@
     display: block;
 }
 .ucsos-page .final-design-section {
-    padding: 70px 0 30px;
+    padding: 0px 0 30px;
 }
 .ucsos-page .final-design-container {
     display: block;
@@ -557,14 +557,9 @@
     color: #CA380C;
     letter-spacing: -0.6px;
 }
-.ucsos-page .final-design-right {
-    margin-top: 0;
-}
 .ucsos-page .final-design-card{
     display: flex;
     align-items: center;
-    gap: 60px;
-    padding: 60px 70px;
     justify-content: center;
     width: 100%;
 
