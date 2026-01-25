@@ -179,20 +179,19 @@
     opacity: 0.75;
 }
 .babusyna .project-mockup-container {
-    width: 100%;
-    margin: 0; 
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
 }
 .babusyna .project-mockup {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 90px;
 }
 .babusyna .project-mockup img {
-    max-width: 460px;
+    max-width: 100%;
     width: 100%;
     height: auto;
-    object-fit: contain;
+    border-radius: 30px;
     display: block;
 }
 .babusyna .about-project {
