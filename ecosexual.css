@@ -354,12 +354,6 @@
     background: rgba(0,0,0,0.55);
     margin: 40px 0;
 }
-.ecosexual-page .responsibilities-mockups {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    align-items: center;
-}
 .ecosexual-page .responsibilities-mockups img {
     width: 100%;
     height: auto;
@@ -367,6 +361,7 @@
     object-fit: contain;
 }
 .ecosexual-page .responsibilities-mockups.mockup-single{
+    display: block;
     margin: 50px auto;
     max-width: 1300px;
     padding: 0 30px;
