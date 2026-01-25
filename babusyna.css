@@ -561,15 +561,12 @@
     gap: 40px;
 }
 .babusyna .gallery-box2{
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 100%;
     margin-top: 30px;
     padding: 0;
 }
 .babusyna .gallery-box2 img {
-    max-width: none;
+    max-width: 100%;
     width: 100%;
     height: auto;
     object-fit: contain;
