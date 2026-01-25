@@ -179,13 +179,16 @@
     opacity: 0.75;
 }
 .ecosexual-page .project-mockup-container.grey-card {
-    width: 100%;
-    margin: 0; 
-    padding: 0;
     background: transparent;
+    padding: 0;
+    border-radius: 0;
 }
-.ecosexual-page .project-mockup-image {
-    max-width: none;
+.ecosexual-page .mockup-single{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.ecosexual-page .mockup-single img{
     width: 100%;
     height: auto;
     display: block;
