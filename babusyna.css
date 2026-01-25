@@ -529,6 +529,9 @@
     object-fit: contain;
     display: block;
 }
+.babusyna .final-design-card grey-card {
+    max-width: 100%;
+}
 .babusyna .final-design-text {
     margin-top: 32px;
 }
