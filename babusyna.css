@@ -577,6 +577,7 @@
 .babusyna .gallery-box1 img{
     height: 520px;
     width: auto;
+    flex: 0 0 auto;
     display: block;
     object-fit: contain;
 }
