@@ -516,7 +516,7 @@
 .babusyna .final-design-card {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
     justify-content: flex-start;
     gap: 31px;
     padding: 0;
@@ -525,6 +525,7 @@
 .babusyna .final-design-card img {
     max-width: 100%;
     height: auto;
+    width: 100%;
     object-fit: contain;
     display: block;
 }
