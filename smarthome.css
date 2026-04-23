@@ -425,6 +425,21 @@
     padding: 0 !important;
     border-radius: 0 !important;
 }
+.smarthome .final-design-card.two-column-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 30px;
+    align-items: start;
+}
+
+.smarthome .final-design-card.two-column-images img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 24px;
+}
 
 @media (max-width: 1024px) {
     .smarthome .page-container,
@@ -597,5 +612,8 @@
 
     .smarthome .gallery-box2 img {
         max-width: 520px;
+    }
+    .smarthome .final-design-card.two-column-images {
+        grid-template-columns: 1fr;
     }
 }
