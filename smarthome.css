@@ -616,4 +616,83 @@
     .smarthome .final-design-card.two-column-images {
         grid-template-columns: 1fr;
     }
+
+    .smarthome .project-mockup img {
+        height: auto;
+        max-height: 320px;
+        object-fit: contain;
+    }
+
+    .smarthome .project-mockup-full {
+        height: auto;
+        max-height: 320px;
+        object-fit: contain;
+    }
+
+    .smarthome .responsibilities-mockups img {
+        height: auto;
+        max-height: 320px;
+        object-fit: contain;
+    }
+
+    .smarthome .gallery-box1 img {
+        height: auto;
+        max-height: 320px;
+        object-fit: contain;
+    }
+
+    .smarthome .gallery-box2 img {
+        height: auto;
+        max-height: 320px;
+        object-fit: contain;
+    }
+
+    .smarthome .final-design-card img {
+        height: auto;
+        max-height: 320px;
+        object-fit: contain;
+    }
+
+    .smarthome .wireframes-box img {
+        height: auto;
+        max-height: 320px;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 390px) {
+    .smarthome .project-mockup img {
+        height: 320px;
+        object-fit: contain;
+    }
+
+    .smarthome .project-mockup-full {
+        height: 320px;
+        object-fit: contain;
+    }
+
+    .smarthome .responsibilities-mockups img {
+        height: 320px;
+        object-fit: contain;
+    }
+
+    .smarthome .gallery-box1 img {
+        height: 320px;
+        object-fit: contain;
+    }
+
+    .smarthome .gallery-box2 img {
+        height: 320px;
+        object-fit: contain;
+    }
+
+    .smarthome .final-design-card img {
+        height: 320px;
+        object-fit: contain;
+    }
+
+    .smarthome .wireframes-box img {
+        height: 320px;
+        object-fit: contain;
+    }
 }
