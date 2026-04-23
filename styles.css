@@ -397,6 +397,39 @@ img {
     max-width: 100%;
     height: auto;
 }
+.work-card4 {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.work-card4-image-box {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 28px;
+}
+
+.work-card4-image-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.work-text4 {
+    margin-top: 16px;
+}
+
+.work-title4 {
+    margin: 0 0 6px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.work-description4 {
+    margin: 0;
+    opacity: 0.75;
+}
+
 @media (max-width: 1024px) {
     .nav {
         gap: 28px;
