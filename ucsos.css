@@ -56,7 +56,7 @@
     margin: 0;
     background-color: #EBF6FF;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color:#333
+    color:#333;
 }
 .ucsos-page .page-container {
     max-width: 1300px;
@@ -1094,7 +1094,8 @@
   .ucsos-page .mobile-mockups img{
     height: 320px;
   }
-    .ucsos-page .gallery-mobiles img{
+  .ucsos-page .gallery-mobiles img{
     height: 320px;
   }
+}
 }
