@@ -363,6 +363,21 @@
     padding: 0;
 }
 
+.smarthome .wireframes-box.two-column-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    padding: 0;
+}
+
+.smarthome .wireframes-box.two-column-images img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 24px;
+}
+
 .smarthome .wireframes-box.wireframes-stack img {
     width: 100%;
     max-height: 400px;
@@ -389,7 +404,7 @@
 }
 
 .smarthome .gallery-section {
-    padding: 40px 0 80px;
+    padding: 80px 0;
     width: 100%;
 }
 
@@ -429,9 +444,30 @@
 }
 
 .smarthome .grey-card {
-    background: transparent !important;
-    padding: 0 !important;
-    border-radius: 0 !important;
+    background: rgba(0,0,0,0.08) !important;
+    padding: 40px !important;
+    border-radius: 32px !important;
+}
+
+.smarthome .mobile-block {
+    width: 100%;
+    margin: 50px 0;
+}
+
+.smarthome .mobile-mockups {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.smarthome .mobile-mockups img {
+    height: 500px;
+    width: auto;
+    flex: 0 0 auto;
+    display: block;
+    object-fit: contain;
 }
 .smarthome .final-design-card.two-column-images {
     display: grid;
@@ -447,6 +483,70 @@
     height: auto;
     display: block;
     border-radius: 24px;
+}
+.smarthome .three-column-images {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    align-items: start;
+    justify-items: center;
+    margin: 50px 0;
+}
+
+.smarthome .three-column-images img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    max-height: none !important;
+    display: block;
+    object-fit: contain;
+    border-radius: 24px;
+}
+.smarthome .project-mockup-container.three-column-images {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    align-items: start;
+    justify-items: center;
+    margin: 60px 0;
+}
+
+.smarthome .project-mockup-container.three-column-images img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    max-height: none !important;
+    object-fit: contain;
+    border-radius: 24px;
+}
+
+@media (max-width: 900px) {
+    .smarthome .project-mockup-container.three-column-images {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .smarthome .project-mockup-container.three-column-images {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 900px) {
+    .smarthome .three-column-images {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 28px;
+    }
+}
+
+@media (max-width: 600px) {
+    .smarthome .three-column-images {
+        grid-template-columns: 1fr;
+    }
+
+    .smarthome .three-column-images img {
+        max-width: 280px;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -625,6 +725,30 @@
         grid-template-columns: 1fr;
     }
 
+    .smarthome .wireframes-box.two-column-images {
+        grid-template-columns: 1fr;
+    }
+
+.smarthome .three-column-images {
+        grid-template-columns: 1fr;
+    }
+
+.smarthome .three-column-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0;
+}
+
+.smarthome .three-column-images img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 24px;
+    object-fit: contain;
+}
+
     .smarthome .project-mockup img {
         height: auto;
         max-height: 320px;
@@ -700,6 +824,54 @@
     }
 
     .smarthome .wireframes-box img {
+        height: 320px;
+        object-fit: contain;
+    }
+
+    .smarthome .mobile-mockups img {
+        height: auto;
+        max-height: 320px;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 390px) {
+    .smarthome .project-mockup img {
+        height: 320px;
+        object-fit: contain;
+    }
+
+    .smarthome .project-mockup-full {
+        height: 320px;
+        object-fit: contain;
+    }
+
+    .smarthome .responsibilities-mockups img {
+        height: 320px;
+        object-fit: contain;
+    }
+
+    .smarthome .gallery-box1 img {
+        height: 320px;
+        object-fit: contain;
+    }
+
+    .smarthome .gallery-box2 img {
+        height: 320px;
+        object-fit: contain;
+    }
+
+    .smarthome .final-design-card img {
+        height: 320px;
+        object-fit: contain;
+    }
+
+    .smarthome .wireframes-box img {
+        height: 320px;
+        object-fit: contain;
+    }
+
+    .smarthome .mobile-mockups img {
         height: 320px;
         object-fit: contain;
     }
