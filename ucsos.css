@@ -342,17 +342,20 @@
     margin: 40px auto 0;
     padding: 70px 90px;
 }
+
 .ucsos-page .mobile-mockups {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: stretch;
     gap: 31px;
 }
 .ucsos-page .mobile-mockups img {
-    height: 596px;
     width: 276px;
+    height: 596px;
     display: block;
-    object-fit: contain;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 10px;
 }
 .ucsos-page .UX-research-section {
     padding: 30px 0 0;
@@ -538,6 +541,7 @@
     width: 100%;
     height: auto;
     display: block;
+    border-radius: 30px;
 }
 .ucsos-page .final-design-section {
     padding: 0 0 30px;
@@ -615,14 +619,15 @@
 .ucsos-page .gallery-mobiles{
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: stretch;
   gap: 31px;
 }
 .ucsos-page .gallery-mobiles img{
-  height: 596px;
   width: 276px;
+  height: 596px;
+  object-fit: cover;
+  border-radius: 10px; 
   display: block;
-  object-fit: contain;
 }
 .ucsos-page .contact {
     padding: 40px 0 40px;
