@@ -54,7 +54,7 @@ body {
 .cv-button {
     text-decoration: none;
     color: #EBF6FF;
-    background: #000000;
+    background: #CA380C;;
     padding: 12px 24px;
     border-radius: 999px;
     font-size: 20px;
@@ -64,7 +64,7 @@ body {
     margin-right: 0;
 }
 .cv-button:hover {
-    background: #CA380C;
+    background: #000000;
 }
 .hero{
     padding: 90px 0 10px;
