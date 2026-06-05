@@ -247,12 +247,14 @@ body {
 }
 .work-text1,
 .work-text2,
-.work-text3 {
+.work-text3,
+.work-text4 {
     margin-top: 20px;
 }
 .work-title1,
 .work-title2,
-.work-title3 {
+.work-title3,
+.work-title4 {
     margin: 0 0 6px 0;
     font-size: 18px;
     font-weight: 500;
@@ -260,13 +262,11 @@ body {
 }
 .work-description1,
 .work-description2,
-.work-description3 {
+.work-description3,
+.work-description4 {
     font-size: 16px;
     opacity: 0.7;
     margin: 0;
-}
-.work-card3.wide {
-    grid-column: 1 / -1;
 }
 .work-card3-image-box {
     display: flex;
@@ -313,6 +313,39 @@ body {
     object-fit: contain;
     display: block;
     flex: 0 0 auto;
+}
+.work-card4 {
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+.work-card4-image-box {
+    width: 100%;
+    height: 354px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 26px;
+    box-sizing: border-box;
+}
+
+.coming-soon-content {
+    text-align: center;
+}
+
+.coming-soon-label {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 14px;
+    opacity: 0.6;
+    margin: 0 0 10px 0;
+}
+
+.coming-soon-content h3 {
+    font-size: 42px;
+    line-height: 1;
+    margin: 0;
+    font-weight: 700;
 }
 .contact {
     padding: 40px 0 40px;
@@ -370,32 +403,82 @@ body {
 .contact-links a:hover {
     opacity: 0.8;
 }
+.contact {
+    padding: 100px 0 40px;
+}
+
+.container-contact {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 80px;
+    align-items: start;
+}
+
+.contact-left h3 {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    line-height: 0.95;
+    font-weight: 700;
+    color: #333;
+}
+
+.contact-right {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contact-links a {
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    color: #CA380C;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 8px;
+}
+
+.contact-links a:hover {
+    opacity: 0.8;
+}
+
 .footer {
-    margin-top: 70px;
+    margin-top: 130px;
     padding-top: 18px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .footer p {
     margin: 0;
     font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
     font-size: 24px;
     opacity: 0.9;
 }
+
 .footer a {
     font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
     font-size: 18px;
-    color:#333;
+    color: #333;
     text-decoration: none;
 }
+
 .footer a:hover {
     text-decoration: underline;
     text-underline-offset: 6px;
-}
-img {
-    max-width: 100%;
-    height: auto;
 }
 .work-card4 {
     display: block;
@@ -413,21 +496,6 @@ img {
     width: 100%;
     height: auto;
     display: block;
-}
-
-.work-text4 {
-    margin-top: 16px;
-}
-
-.work-title4 {
-    margin: 0 0 6px;
-    font-size: 24px;
-    font-weight: 600;
-}
-
-.work-description4 {
-    margin: 0;
-    opacity: 0.75;
 }
 
 @media (max-width: 1024px) {
@@ -647,4 +715,35 @@ img {
     .footer a {
         font-size: 16px;
     }
+    @media (max-width: 768px) {
+    .contact {
+        padding: 70px 0 30px;
+    }
+
+    .contact-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .contact-left h3 {
+        font-size: 48px;
+    }
+
+    .contact-links a {
+        font-size: 36px;
+    }
+
+    .footer {
+        margin-top: 80px;
+        align-items: flex-start;
+    }
+
+    .footer p {
+        font-size: 20px;
+    }
+
+    .footer a {
+        font-size: 16px;
+    }
+}
 }

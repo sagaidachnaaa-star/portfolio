@@ -529,6 +529,117 @@
 .ecosexual-page img{
     border-radius: 30px;
 }
+.ecosexual-page .project-mockup-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    border-radius: 30px;
+}
+
+.ecosexual-page .UP-image {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.ecosexual-page .UP-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.ecosexual-page .empathy-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.ecosexual-page .before-after img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+.contact {
+    padding: 100px 0 40px;
+}
+
+.container-contact {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 80px;
+    align-items: start;
+}
+
+.contact-left h3 {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    line-height: 0.95;
+    font-weight: 700;
+    color: #333;
+}
+
+.contact-right {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contact-links a {
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    color: #CA380C;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 8px;
+}
+
+.contact-links a:hover {
+    opacity: 0.8;
+}
+
+.footer {
+    margin-top: 130px;
+    padding-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    opacity: 0.9;
+}
+
+.footer a {
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
 @media (max-width: 1024px) {
     .ecosexual-page .page-container {
         padding-left: 24px;
