@@ -314,39 +314,6 @@ body {
     display: block;
     flex: 0 0 auto;
 }
-.work-card4 {
-    display: block;
-    text-decoration: none;
-    color: #333;
-}
-
-.work-card4-image-box {
-    width: 100%;
-    height: 354px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 26px;
-    box-sizing: border-box;
-}
-
-.coming-soon-content {
-    text-align: center;
-}
-
-.coming-soon-label {
-    font-family: "JetBrains Mono", monospace;
-    font-size: 14px;
-    opacity: 0.6;
-    margin: 0 0 10px 0;
-}
-
-.coming-soon-content h3 {
-    font-size: 42px;
-    line-height: 1;
-    margin: 0;
-    font-weight: 700;
-}
 .contact {
     padding: 40px 0 40px;
 }
@@ -479,23 +446,6 @@ body {
 .footer a:hover {
     text-decoration: underline;
     text-underline-offset: 6px;
-}
-.work-card4 {
-    display: block;
-    text-decoration: none;
-    color: inherit;
-}
-
-.work-card4-image-box {
-    width: 100%;
-    overflow: hidden;
-    border-radius: 28px;
-}
-
-.work-card4-image-box img {
-    width: 100%;
-    height: auto;
-    display: block;
 }
 
 @media (max-width: 1024px) {
