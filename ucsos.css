@@ -196,10 +196,13 @@
     letter-spacing: -0.6px;
 }
 .ucsos-page .about-project-right p {
-    margin: 0 0 34px;
+    margin: 0 0 38px;
     font-size: 22px;
     line-height: 1.7;
     font-weight: 400;
+}
+.ucsos-page .about-project-right > p:first-of-type {
+    margin-bottom: 18px;
 }
 .ucsos-page .about-project-info {
     display: grid;
@@ -308,14 +311,16 @@
     border-radius: 30px;
 }
 .ucsos-page .responsibilities-container,
-.ucsos-page .challenges-container{
+.ucsos-page .challenges-container,
+.ucsos-page .goals-container {
     display: grid;
     grid-template-columns: 380px 1fr;
     gap: 90px;
     align-items: start;
 }
 .ucsos-page .responsibilities-left h2,
-.ucsos-page .challenges-left h2 {
+.ucsos-page .challenges-left h2,
+.ucsos-page .goals-left h2 {
     margin: 0;
     font-family: "JetBrains Mono", monospace;
     font-size: 40px;
@@ -324,16 +329,59 @@
     letter-spacing: -0.6px;
 }
 .ucsos-page .responsibilities-right p,
-.ucsos-page .challenges-right p {
+.ucsos-page .challenges-right p,
+.ucsos-page .goals-right p {
     margin: 0;
     font-size: 22px;
     line-height: 1.7;
     font-weight: 400;
 }
-.ucsos-page .responsibilities-divider {
+.ucsos-page .responsibilities-divider,
+.ucsos-page .challenges-divider,
+.ucsos-page .goals-divider {
     height: 1px;
     background: rgba(0,0,0,0.55);
     margin: 40px 0;
+}
+.ucsos-page .goals-right ul {
+    margin: 24px 0 0;
+    padding-left: 24px;
+}
+.ucsos-page .goals-right li {
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.ucsos-page .ux-quote-banner {
+    margin: 70px auto 60px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    text-align: center;
+}
+
+.ucsos-page .ux-quote-banner .quote-mark {
+    flex-shrink: 0;
+    font-size: 90px;
+    line-height: 0.7;
+    font-weight: 700;
+    color: #CA380C;
+}
+
+.ucsos-page .ux-quote-banner p {
+    margin: 0;
+    font-size: 40px;
+    line-height: 1.25;
+    font-weight: 700;
+    color: #1F3E68;
+    letter-spacing: -0.8px;
+}
+
+.ucsos-page .ux-quote-banner p span {
+    color: #CA380C;
 }
 .ucsos-page .mobile-block.grey-card {
     background: rgba(0, 0, 0, 0.1);
@@ -419,6 +467,7 @@
     overflow: hidden;
     margin-bottom: 26px;
     margin-top: 30px;
+    border-radius: 30px;
 }
 .ucsos-page .UP-card img {
     width: 100%;
@@ -530,39 +579,19 @@
     height: auto;
     display: block;
 }
-.ucsos-page .wireframes-section {
-    padding: 0 0 50px;
-}
-.ucsos-page .wireframes-title{
-  margin: 0 0 22px;
-  font-family: "JetBrains Mono", monospace;
-  font-size: 40px;
-  line-height: 0.95;
-  font-weight: 500;
-  color: #CA380C;
-  letter-spacing: -0.6px;
-}
-.ucsos-page .wireframes-box {
-    display: flex;
-    flex-direction: column;
-    gap: 31px;
-    width: 100%;
-}
-.ucsos-page .wireframes-box img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 30px;
-}
 .ucsos-page .final-design-section {
-    padding: 0 0 30px;
+    padding: 0 0 80px;
 }
-.ucsos-page .final-design-container {
+
+.ucsos-page .final-design-heading {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 24px;
+    grid-template-columns: 380px 1fr;
+    gap: 90px;
+    align-items: start;
+    margin-bottom: 56px;
 }
-.ucsos-page .final-design-left h2 {
+
+.ucsos-page .final-design-heading h2 {
     margin: 0;
     font-family: "JetBrains Mono", monospace;
     font-size: 40px;
@@ -571,86 +600,94 @@
     color: #CA380C;
     letter-spacing: -0.6px;
 }
-.ucsos-page .final-design-right{
-    width: 100%;
-}
-.ucsos-page .final-design-card{
-    width: 100%;
 
-    background: transparent;
-    border-radius: 0;
-    padding: 0;
-}
-.ucsos-page .final-design-card img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 30px;
-}
-.ucsos-page .final-design-text {
-    margin: 34px auto 0;
-    padding: 0;
-    max-width: 900px;
-    text-align: left;
-}
-.ucsos-page .final-design-text p {
-    margin: 0 0 24px;
+.ucsos-page .final-design-heading p {
+    margin: 0;
     font-size: 22px;
     line-height: 1.7;
     font-weight: 400;
-    text-align: left;
-}
-.ucsos-page .gallery-section {
-    padding: 0 0 80px;
-}
-.ucsos-page .gallery-container {
-    display: flex;
-    flex-direction: column;
-    gap: 46px;
-}
-.ucsos-page .gallery-desktop{
-    display: flex;
-    flex-direction: column;
-    gap: 46px;
 }
 
-.ucsos-page .gallery-desktop img{
+.ucsos-page .final-design-grid-row {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 56px;
+    align-items: center;
+    margin-bottom: 56px;
+}
+
+.ucsos-page .final-design-image img {
     width: 100%;
     height: auto;
     display: block;
     border-radius: 30px;
 }
-.ucsos-page .gallery-grey{
-    width: 100%;
-    background: rgba(0,0,0,0.10);
-    padding: 70px 90px;
-    border-radius: 30px;
-    box-sizing: border-box;
+
+.ucsos-page .final-design-copy {
+    max-width: 520px;
 }
-.ucsos-page .gallery-mobiles{
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
-  gap: 31px;
+
+.ucsos-page .design-label {
+    display: inline-block;
+    margin-bottom: 18px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 15px;
+    font-weight: 500;
+    color: #CA380C;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
 }
-.ucsos-page .gallery-mobiles img{
-  width: 276px;
-  height: 596px;
-  object-fit: cover;
-  border-radius: 20px; /* optional */
-  display: block;
+
+.ucsos-page .final-design-copy h3 {
+    margin: 0 0 20px;
+    font-size: 32px;
+    line-height: 1.15;
+    font-weight: 700;
+    color: #2F2F2F;
 }
-.ucsos-page .prototype-embed h3{
-    margin: 0 0 22px 0;  
+
+.ucsos-page .final-design-copy p {
+    margin: 0 0 18px;
+    font-size: 20px;
+    line-height: 1.65;
+    font-weight: 400;
+    color: #2F2F2F;
+}
+.ucsos-page .learned-container {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 90px;
+    align-items: start;
+    margin-top: 40px;
+}
+
+.ucsos-page .learned-left h2 {
+    margin: 0;
     font-family: "JetBrains Mono", monospace;
     font-size: 40px;
-    line-height: 0.95;
     font-weight: 500;
     color: #CA380C;
     letter-spacing: -0.6px;
 }
+
+.ucsos-page .learned-right p {
+    margin: 0 0 24px;
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.ucsos-page .learned-right p:last-child {
+    margin-bottom: 0;
+}
+
+.ucsos-page .final-design-divider {
+    height: 1px;
+    background: rgba(0,0,0,0.55);
+    margin: 60px 0 40px;
+}
 .contact {
-    padding: 100px 0 40px;
+    padding: 20px 0 40px;
 }
 
 .container-contact {
@@ -725,6 +762,424 @@
 .footer a:hover {
     text-decoration: underline;
     text-underline-offset: 6px;
+}
+/* ================================
+   NARRATIVE CASE STUDY SECTIONS
+================================ */
+
+/* From Persona to Structure */
+.ucsos-page .decision-bridge-container {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 90px;
+    align-items: start;
+    padding-top: 30px;
+}
+
+.ucsos-page .decision-bridge-left h2 {
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 40px;
+    line-height: 0.95;
+    font-weight: 500;
+    color: #CA380C;
+    letter-spacing: -0.6px;
+}
+
+.ucsos-page .decision-bridge-right p {
+    margin: 0 0 24px;
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.ucsos-page .decision-bridge-right p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Information Architecture */
+.ucsos-page .IA-container {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 90px;
+    align-items: start;
+    padding-top: 30px;
+}
+
+.ucsos-page .structure-left h2 {
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 40px;
+    line-height: 0.95;
+    font-weight: 500;
+    color: #CA380C;
+    letter-spacing: -0.6px;
+}
+
+.ucsos-page .structure-right {
+    min-width: 0;
+}
+
+.ucsos-page .structure-intro {
+    margin: 0 0 30px;
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.ucsos-page .structure-image-box {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 30px;
+    background: transparent;
+}
+
+.ucsos-page .structure-image-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+
+
+/* IA pain point → design decision cards */
+.ucsos-page .ia-decision-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+    margin-top: 30px;
+}
+
+.ucsos-page .ia-decision-item {
+    background: rgba(255, 255, 255, 0.42);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 24px;
+    padding: 24px;
+}
+
+.ucsos-page .ia-decision-item .ia-pain {
+    display: block;
+    margin-bottom: 12px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 600;
+    color: #CA380C;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.ucsos-page .ia-decision-item p {
+    margin: 0;
+    font-size: 19px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.ucsos-page .ia-decision-item strong {
+    font-weight: 700;
+}
+
+
+/* User Flow */
+.ucsos-page .UF-container {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 90px;
+    align-items: start;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.ucsos-page .UF-left h2 {
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 40px;
+    line-height: 0.95;
+    font-weight: 500;
+    color: #CA380C;
+    letter-spacing: -0.6px;
+}
+
+.ucsos-page .UF-right {
+    width: 100%;
+    min-width: 0;
+}
+
+.ucsos-page .UF-image {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.ucsos-page .UF-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.ucsos-page .UF-right p {
+    margin: 24px 0 0;
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+
+/* Dividers */
+.ucsos-page .IA-divider,
+.ucsos-page .UF-divider,
+.ucsos-page .final-design-divider {
+    height: 1px;
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.ucsos-page .IA-divider {
+    margin: 44px 0;
+}
+
+.ucsos-page .UF-divider {
+    margin: 44px 0;
+}
+
+.ucsos-page .final-design-divider {
+    margin: 60px 0 40px;
+}
+
+
+/* Final Design intro */
+.ucsos-page .final-design-heading {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 90px;
+    align-items: start;
+    margin-bottom: 56px;
+}
+
+.ucsos-page .final-design-heading h2 {
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 40px;
+    line-height: 0.95;
+    font-weight: 500;
+    color: #CA380C;
+    letter-spacing: -0.6px;
+}
+
+.ucsos-page .final-design-heading p {
+    margin: 0;
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+
+/* Final Design grid rows */
+.ucsos-page .final-design-grid-row {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 56px;
+    align-items: center;
+    margin-bottom: 56px;
+}
+
+.ucsos-page .final-design-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 30px;
+}
+
+.ucsos-page .final-design-copy {
+    max-width: 560px;
+}
+
+.ucsos-page .design-label {
+    display: inline-block;
+    margin-bottom: 18px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 15px;
+    font-weight: 600;
+    color: #CA380C;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.ucsos-page .final-design-copy h3 {
+    margin: 0 0 20px;
+    font-size: 32px;
+    line-height: 1.15;
+    font-weight: 700;
+    color: #2F2F2F;
+}
+
+.ucsos-page .final-design-copy p {
+    margin: 0 0 18px;
+    font-size: 20px;
+    line-height: 1.65;
+    font-weight: 400;
+    color: #2F2F2F;
+}
+
+.ucsos-page .final-design-copy p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* What I Learned */
+.ucsos-page .learned-container {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 90px;
+    align-items: start;
+    margin-top: 40px;
+}
+
+.ucsos-page .learned-left h2 {
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 40px;
+    line-height: 0.95;
+    font-weight: 500;
+    color: #CA380C;
+    letter-spacing: -0.6px;
+}
+
+.ucsos-page .learned-right p {
+    margin: 0 0 24px;
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.ucsos-page .learned-right p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Small fixes for existing sections */
+.ucsos-page .challenges-right p {
+    margin-bottom: 24px;
+}
+
+.ucsos-page .challenges-right p:last-child {
+    margin-bottom: 0;
+}
+
+.ucsos-page .UP-right,
+.ucsos-page .UX-right,
+.ucsos-page .structure-right,
+.ucsos-page .UF-right,
+.ucsos-page .final-design-copy,
+.ucsos-page .learned-right {
+    min-width: 0;
+}
+.project-hero-image,
+.project-hero-video {
+    width: 100%;
+    display: block;
+    border-radius: 24px;
+    object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .ucsos-page .decision-bridge-container,
+    .ucsos-page .IA-container,
+    .ucsos-page .UF-container,
+    .ucsos-page .final-design-heading,
+    .ucsos-page .learned-container {
+        grid-template-columns: 320px 1fr;
+        gap: 56px;
+    }
+
+    .ucsos-page .decision-bridge-left h2,
+    .ucsos-page .structure-left h2,
+    .ucsos-page .UF-left h2,
+    .ucsos-page .final-design-heading h2,
+    .ucsos-page .learned-left h2 {
+        font-size: 34px;
+    }
+
+    .ucsos-page .decision-bridge-right p,
+    .ucsos-page .structure-intro,
+    .ucsos-page .UF-right p,
+    .ucsos-page .final-design-heading p,
+    .ucsos-page .learned-right p {
+        font-size: 20px;
+    }
+
+    .ucsos-page .ia-decision-list {
+        grid-template-columns: 1fr;
+    }
+
+    .ucsos-page .final-design-grid-row {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .ucsos-page .final-design-copy {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .ucsos-page .decision-bridge-container,
+    .ucsos-page .IA-container,
+    .ucsos-page .UF-container,
+    .ucsos-page .final-design-heading,
+    .ucsos-page .learned-container {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .ucsos-page .decision-bridge-left h2,
+    .ucsos-page .structure-left h2,
+    .ucsos-page .UF-left h2,
+    .ucsos-page .final-design-heading h2,
+    .ucsos-page .learned-left h2 {
+        font-size: 28px;
+    }
+
+    .ucsos-page .decision-bridge-right p,
+    .ucsos-page .structure-intro,
+    .ucsos-page .UF-right p,
+    .ucsos-page .final-design-heading p,
+    .ucsos-page .learned-right p {
+        font-size: 18px;
+        line-height: 1.65;
+    }
+
+    .ucsos-page .ia-decision-item {
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .ucsos-page .ia-decision-item p {
+        font-size: 17px;
+    }
+
+    .ucsos-page .final-design-grid-row {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        margin-bottom: 44px;
+    }
+
+    .ucsos-page .final-design-copy h3 {
+        font-size: 26px;
+    }
+
+    .ucsos-page .final-design-copy p {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    .ucsos-page .structure-image-box,
+    .ucsos-page .UF-image,
+    .ucsos-page .final-design-image img {
+        border-radius: 22px;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -877,6 +1332,20 @@
     width: auto;
   }
 }
+@media (max-width: 900px) {
+    .ucsos-page .learned-container {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .ucsos-page .learned-left h2 {
+        font-size: 34px;
+    }
+
+    .ucsos-page .learned-right p {
+        font-size: 18px;
+    }
+}
 @media (max-width: 768px) {
     .ucsos-page .page-container,
     .ucsos-page .container-header,
@@ -884,11 +1353,12 @@
         padding-left: 16px;
         padding-right: 16px;
     }
+    
     .ucsos-page .mobile-block.grey-card{
         padding: 22px 16px;
         border-radius: 22px;
     }
-    ucsos-page .wireframes-section,
+    .ucsos-page .wireframes-section,
   .ucsos-page .final-design-section,
   .ucsos-page .gallery-section{
     padding-bottom: 30px;
