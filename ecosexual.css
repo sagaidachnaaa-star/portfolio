@@ -170,14 +170,6 @@
     font-weight: 700;
     letter-spacing: -0.6px;
 }
-.ecosexual-page .project-hero > span {
-    display: inline-block;
-    margin-top: 10px;
-    font-size: 16px;
-    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    opacity: 0.75;
-}
 .ecosexual-page .project-mockup-container.grey-card {
     background: transparent;
     padding: 0;
@@ -310,6 +302,31 @@
     background: rgba(0,0,0,0.55);
     margin: 26px 0;
 }
+.ecosexual-page .challenge-goals-container {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 90px;
+    align-items: start;
+    margin-top: 40px;
+}
+.ecosexual-page .challenge-goals-left h2 {
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 40px;
+    line-height: 0.95;
+    font-weight: 500;
+    color:#CA380C;
+    letter-spacing: -0.6px;
+}
+.ecosexual-page .challenge-goals-right p {
+    margin: 0 0 24px;
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+.ecosexual-page .challenge-goals-right p:last-child {
+    margin-bottom: 0;
+}
 .ecosexual-page .mockup-single{
     display: block;
 }
@@ -325,15 +342,7 @@
     gap: 90px;
     align-items: start;
 }
-.ecosexual-page .challenges-container{
-    display: grid;
-    grid-template-columns: 380px 1fr;
-    gap: 90px;
-    align-items: start;
-    margin-top: 40px;
-}
-.ecosexual-page .responsibilities-left h2,
-.ecosexual-page .challenges-left h2 {
+.ecosexual-page .responsibilities-left h2 {
     margin: 0;
     font-family: "JetBrains Mono", monospace;
     font-size: 40px;
@@ -341,15 +350,33 @@
     color: #CA380C;
     letter-spacing: -0.6px;
 }
-.ecosexual-page .responsibilities-right p,
-.ecosexual-page .challenges-right p {
-    margin: 0;
+.ecosexual-page .responsibilities-right > p {
+    margin: 0 0 34px;
     font-size: 22px;
     line-height: 1.7;
     font-weight: 400;
 }
-.ecosexual-page .responsibilities-divider,
-.ecosexual-page .challenges-divider {
+.ecosexual-page .responsibilities-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 36px 60px;
+}
+.ecosexual-page .responsibility-block h3 {
+    margin: 0 0 10px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 22px;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: -0.3px;
+}
+.ecosexual-page .responsibility-block p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 400;
+    max-width: 460px;
+}
+.ecosexual-page .responsibilities-divider {
     height: 1px;
     background: rgba(0,0,0,0.55);
     margin: 40px 0;
@@ -387,14 +414,66 @@
     justify-self: stretch;
     width: 100%
 }
-.ecosexual-page .UX-research-right p {
-    margin: 0;
+.ecosexual-page .UX-research-right > p {
+    margin: 0 0 34px;
     font-size: 22px;
     line-height: 1.7;
     font-weight: 400;
     max-width: none;
 }
+.ecosexual-page .UX-research-right > p:last-child {
+    margin-bottom: 0;
+}
+.ecosexual-page .insights-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 36px 60px;
+    margin: 0 0 34px;
+}
+.ecosexual-page .insight-card h3 {
+    margin: 0 0 10px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 22px;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: -0.3px;
+}
+.ecosexual-page .insight-card p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 400;
+}
 .ecosexual-page .UX-research-divider {
+    height: 1px;
+    background: rgba(0,0,0,0.55);
+    margin: 44px 0;
+}
+.ecosexual-page .learning-container {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 90px;
+    align-items: start;
+}
+.ecosexual-page .learning-left h2 {
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 40px;
+    line-height: 0.95;
+    font-weight: 500;
+    color: #CA380C;
+    letter-spacing: -0.6px;
+}
+.ecosexual-page .learning-right p {
+    margin: 0 0 24px;
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+.ecosexual-page .learning-right p:last-child {
+    margin-bottom: 0;
+}
+.ecosexual-page .learning-divider {
     height: 1px;
     background: rgba(0,0,0,0.55);
     margin: 44px 0;
@@ -471,6 +550,28 @@
     background: rgba(0,0,0,0.55);
     margin: 44px 0 0;
 }
+.ecosexual-page .applying-persona-container {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 90px;
+    align-items: start;
+    margin-top: 44px;
+}
+.ecosexual-page .applying-persona-left h2 {
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 40px;
+    line-height: 0.95;
+    font-weight: 500;
+    color: #CA380C;
+    letter-spacing: -0.6px;
+}
+.ecosexual-page .applying-persona-right p {
+    margin: 0;
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+}
 .ecosexual-page .final-design-section {
     padding: 40px 0 10px;
 }
@@ -536,6 +637,12 @@
     object-fit: contain;
     border-radius: 30px;
 }
+.ecosexual-page .project-hero-video {
+    width: 100%;
+    display: block;
+    border-radius: 30px;
+    object-fit: cover;
+}
 
 .ecosexual-page .UP-image {
     width: 100%;
@@ -562,6 +669,129 @@
     height: auto;
     display: block;
     object-fit: contain;
+}
+.ecosexual-page .final-design-section .shot-media {
+    aspect-ratio: 2328 / 1416;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.ecosexual-page .final-design-section .shot-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 0;
+}
+.ecosexual-page .annotated-shot {
+    position: relative;
+}
+.ecosexual-page .callout-dot {
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #CA380C;
+    color: #fff;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 12px;
+    font-weight: 600;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    transform: translate(-50%, -50%);
+}
+.ecosexual-page .callout-content {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transform: translate(16px, -50%);
+}
+.ecosexual-page .callout-content.callout--left {
+    flex-direction: row-reverse;
+    transform: translate(calc(-100% - 16px), -50%);
+}
+.ecosexual-page .callout-line {
+    width: 26px;
+    height: 2px;
+    background: #CA380C;
+    flex-shrink: 0;
+}
+.ecosexual-page .callout-box {
+    background: #fff;
+    color: #000;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-radius: 10px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.18);
+    width: 190px;
+    white-space: normal;
+}
+.ecosexual-page .callout-legend {
+    display: none;
+    margin: 16px 0 0;
+    padding: 0 0 0 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #111;
+}
+.ecosexual-page .callout-legend li {
+    margin-bottom: 6px;
+}
+.ecosexual-page .callout-legend li:last-child {
+    margin-bottom: 0;
+}
+.ecosexual-page .learned-section {
+    padding: 40px 0 10px;
+}
+.ecosexual-page .learned-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 0;
+}
+.ecosexual-page .learned-container > h2 {
+    margin: 0 0 34px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 44px;
+    font-weight: 500;
+    color: #CA380C;
+    letter-spacing: -0.6px;
+    line-height: 1;
+}
+.ecosexual-page .learned-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 60px;
+    margin-bottom: 34px;
+}
+.ecosexual-page .learned-card h3 {
+    margin: 0 0 12px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    letter-spacing: -0.3px;
+}
+.ecosexual-page .learned-card p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+.ecosexual-page .learned-conclusion {
+    margin: 0;
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+    max-width: 900px;
 }
 .contact {
     padding: 100px 0 40px;
@@ -689,7 +919,7 @@
         grid-template-columns: 320px 1fr;
         gap: 50px;
     }
-    .ecosexual-page .challenges-container {
+    .ecosexual-page .challenge-goals-container {
         grid-template-columns: 320px 1fr;
         gap: 50px;
     }
@@ -697,20 +927,51 @@
         grid-template-columns: 320px 1fr;
         gap: 50px;
     }
+    .ecosexual-page .learning-container {
+        grid-template-columns: 320px 1fr;
+        gap: 50px;
+    }
+    .ecosexual-page .applying-persona-container {
+        grid-template-columns: 320px 1fr;
+        gap: 50px;
+    }
     .ecosexual-page .about-project-left h2,
     .ecosexual-page .responsibilities-left h2,
-    .ecosexual-page .challenges-left h2,
-    .ecosexual-page .UX-research-left h2{
+    .ecosexual-page .challenge-goals-left h2,
+    .ecosexual-page .UX-research-left h2,
+    .ecosexual-page .learning-left h2,
+    .ecosexual-page .applying-persona-left h2{
         font-size: 36px;
     }
     .ecosexual-page .about-project-right p,
-    .ecosexual-page .responsibilities-right p,
-    .ecosexual-page .challenges-right p,
-    .ecosexual-page .UX-research-right p{
+    .ecosexual-page .responsibilities-right > p,
+    .ecosexual-page .challenge-goals-right p,
+    .ecosexual-page .UX-research-right > p,
+    .ecosexual-page .learning-right p,
+    .ecosexual-page .applying-persona-right p{
         font-size: 20px;
+    }
+    .ecosexual-page .responsibilities-grid {
+        gap: 30px 40px;
+    }
+    .ecosexual-page .responsibility-block h3 {
+        font-size: 20px;
+    }
+    .ecosexual-page .responsibility-block p {
+        font-size: 17px;
+        max-width: none;
     }
     .ecosexual-page .responsibilities-mockups {
         gap: 20px;
+    }
+    .ecosexual-page .insights-grid {
+        gap: 30px 40px;
+    }
+    .ecosexual-page .insight-card h3 {
+        font-size: 20px;
+    }
+    .ecosexual-page .insight-card p {
+        font-size: 17px;
     }
     .ecosexual-page .UP-container {
         display: grid;
@@ -748,6 +1009,25 @@
     .ecosexual-page .before-after p{
         font-size: 20px;
         margin-bottom: 34px;
+    }
+    .ecosexual-page .callout-box {
+        font-size: 12px;
+        padding: 7px 10px;
+    }
+    .ecosexual-page .learned-container > h2 {
+        font-size: 40px;
+    }
+    .ecosexual-page .learned-grid {
+        gap: 30px 40px;
+    }
+    .ecosexual-page .learned-card h3 {
+        font-size: 21px;
+    }
+    .ecosexual-page .learned-card p {
+        font-size: 17px;
+    }
+    .ecosexual-page .learned-conclusion {
+        font-size: 20px;
     }
 }
 @media (max-width: 768px) {
@@ -806,15 +1086,28 @@
         grid-template-columns: 1fr;
         gap: 18px;
     }
-    .ecosexual-page .challenges-container {
+    .ecosexual-page .challenge-goals-container {
         display: grid;
         grid-template-columns: 1fr;
         gap: 18px;
+        margin-top: 24px;
     }
     .ecosexual-page .UX-research-container {
         display: grid;
         grid-template-columns: 1fr;
         gap: 18px;
+    }
+    .ecosexual-page .learning-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 18px;
+        margin-top: 24px;
+    }
+    .ecosexual-page .applying-persona-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 18px;
+        margin-top: 24px;
     }
     .ecosexual-page .UP-container {
         display: grid;
@@ -828,8 +1121,10 @@
     }
     .ecosexual-page .about-project-left h2,
     .ecosexual-page .responsibilities-left h2,
-    .ecosexual-page .challenges-left h2,
+    .ecosexual-page .challenge-goals-left h2,
     .ecosexual-page .UX-research-left h2,
+    .ecosexual-page .learning-left h2,
+    .ecosexual-page .applying-persona-left h2,
     .ecosexual-page .UP-left h2,
     .ecosexual-page .empathy-left h2 {
         font-size: 34px;
@@ -838,13 +1133,38 @@
         padding-top: 0;
     }
     .ecosexual-page .about-project-right p,
-    .ecosexual-page .responsibilities-right p,
-    .ecosexual-page .challenges-right p,
-    .ecosexual-page .UX-research-right p,
+    .ecosexual-page .responsibilities-right > p,
+    .ecosexual-page .challenge-goals-right p,
+    .ecosexual-page .UX-research-right > p,
+    .ecosexual-page .learning-right p,
+    .ecosexual-page .applying-persona-right p,
     .ecosexual-page .UP-right > p,
     .ecosexual-page .empathy-right > p {
         font-size: 18px;
         line-height: 1.7;
+    }
+    .ecosexual-page .responsibilities-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+    .ecosexual-page .responsibility-block h3 {
+        font-size: 19px;
+    }
+    .ecosexual-page .responsibility-block p {
+        font-size: 17px;
+        line-height: 1.6;
+        max-width: none;
+    }
+    .ecosexual-page .insights-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+    .ecosexual-page .insight-card h3 {
+        font-size: 19px;
+    }
+    .ecosexual-page .insight-card p {
+        font-size: 17px;
+        line-height: 1.6;
     }
     .ecosexual-page .about-project-info {
         grid-template-columns: 1fr;
@@ -872,6 +1192,26 @@
     .ecosexual-page .final-design-container > h2{
         font-size: 34px;
     }
+    .ecosexual-page .learned-container > h2 {
+        font-size: 30px;
+        margin-bottom: 24px;
+    }
+    .ecosexual-page .learned-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        margin-bottom: 24px;
+    }
+    .ecosexual-page .learned-card h3 {
+        font-size: 20px;
+    }
+    .ecosexual-page .learned-card p {
+        font-size: 17px;
+        line-height: 1.6;
+    }
+    .ecosexual-page .learned-conclusion {
+        font-size: 18px;
+        line-height: 1.7;
+    }
     .ecosexual-page .before-after h3{
         font-size: 24px;
     }
@@ -882,10 +1222,21 @@
         margin-bottom: 28px;
     }
     .ecosexual-page .responsibilities-divider,
-    .ecosexual-page .challenges-divider,
     .ecosexual-page .UX-research-divider,
+    .ecosexual-page .learning-divider,
     .ecosexual-page .UP-divider,
     .ecosexual-page .empathy-divider{
         margin: 28px 0;
+    }
+    .ecosexual-page .callout-content {
+        display: none;
+    }
+    .ecosexual-page .callout-legend {
+        display: block;
+    }
+    .ecosexual-page .callout-dot {
+        width: 20px;
+        height: 20px;
+        font-size: 11px;
     }
 }
