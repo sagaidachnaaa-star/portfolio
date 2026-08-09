@@ -219,14 +219,16 @@ body {
 }
 .work-card1,
 .work-card2,
-.work-card3 {
+.work-card3,
+.work-card4 {
     display: block;
     text-decoration: none;
     color: #333
 }
 .work-card1-image-box,
 .work-card2-image-box,
-.work-card3-image-box {
+.work-card3-image-box,
+.work-card4-image-box {
     width: 100%;
     height: 354px;
     display: flex;
@@ -236,7 +238,8 @@ body {
 }
 .work-card1-image-box,
 .work-card2-image-box,
-.work-card3-image-box {
+.work-card3-image-box,
+.work-card4-image-box {
     box-sizing: border-box;
 }
 .work-card1-image-box img,
@@ -268,7 +271,8 @@ body {
     opacity: 0.7;
     margin: 0;
 }
-.work-card3-image-box {
+.work-card3-image-box,
+.work-card4-image-box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -277,7 +281,8 @@ body {
     padding: 26px;
     overflow: hidden;
 }
-.work-card3-image-box img {
+.work-card3-image-box img,
+.work-card4-image-box img {
     max-height: 100%;
     object-fit: contain;
     display: block;
@@ -300,13 +305,15 @@ body {
     width: auto;
     display: block;  
 }
-.work-card3-image-box .bk-mobiles {
+.work-card3-image-box .bk-mobiles,
+.work-card4-image-box .bk-mobiles {
     display: flex;
     gap: 22px;
     align-items: center;
     flex: 0 0 auto;
 }
-.work-card3-image-box .bk-mobile {
+.work-card3-image-box .bk-mobile,
+.work-card4-image-box .bk-mobile {
     width: 140px;
     height: auto;
     max-height: 260px;
@@ -504,14 +511,16 @@ body {
     }
     .work-card1-image-box,
     .work-card2-image-box,
-    .work-card3-image-box {
+    .work-card3-image-box,
+    .work-card4-image-box {
         height: auto;
     }
     .work-card1-image-box img,
     .work-card2-image-box img {
         max-height: 280px;
     }
-    .work-card3-image-box {
+    .work-card3-image-box,
+    .work-card4-image-box {
         height: auto;
         padding: 20px;
         gap: 22px;
@@ -520,10 +529,11 @@ body {
         max-width: 100%;
         max-height: 240px;
     }
-    .work-card3-image-box .bk-mobile {
+    .work-card3-image-box .bk-mobile,
+    .work-card4-image-box .bk-mobile {
         width: 120px;
         max-height: 240px;
-        display: block; 
+        display: block;
     }
     .contact-content {
         grid-template-columns: 1fr;

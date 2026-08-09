@@ -1,0 +1,387 @@
+/* ================================
+   WAYO-SPECIFIC ADDITIONS
+   (same visual system as above: JetBrains Mono orange labels,
+   380px/1fr split grid, grey-card, ia-decision-item cards)
+================================ */
+
+/* Hero mockup frame: light-grey rounded container, screens fully visible
+   (no cropping). Only height is constrained; width is left to scale
+   naturally so nothing is clipped, unlike object-fit: cover. */
+.wayo-page .mockup-frame {
+    background: rgba(0, 0, 0, 0.06);
+    border-radius: 30px;
+    max-width: 1194px;
+    margin: 40px auto 0;
+    padding: 60px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 36px;
+}
+
+.wayo-page .mockup-frame img {
+    height: 520px;
+    width: auto;
+    max-width: 100%;
+    display: block;
+    border-radius: 14px;
+}
+
+@media (max-width: 1024px) {
+    .wayo-page .mockup-frame {
+        padding: 40px 32px;
+        gap: 24px;
+    }
+    .wayo-page .mockup-frame img {
+        height: 420px;
+    }
+}
+
+@media (max-width: 768px) {
+    .wayo-page .mockup-frame {
+        padding: 28px 18px;
+        border-radius: 22px;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scroll-snap-type: x mandatory;
+    }
+    .wayo-page .mockup-frame img {
+        height: 340px;
+        flex: 0 0 auto;
+        scroll-snap-align: start;
+    }
+}
+
+/* Final Product rows: images sit beside their copy on a light-grey plate
+   (same treatment as the hero mockup frame). */
+.wayo-page .final-design-image {
+    background: rgba(0, 0, 0, 0.06);
+    border-radius: 30px;
+    padding: 36px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+/* Two-column grid so every screenshot slot is EXACTLY the same width and
+   height — no per-image sizing. object-fit: contain scales each source
+   image down to fit its slot without cropping or distorting it; slots
+   that don't match a source's native aspect ratio just show a little
+   letterboxing (transparent onto the grey plate), never a crop. */
+.wayo-page .final-design-image-group {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 24px;
+}
+
+.wayo-page .final-design-image-group img,
+.wayo-page .final-design-image > img {
+    width: 100%;
+    height: 380px;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    .wayo-page .final-design-image {
+        padding: 28px;
+    }
+    .wayo-page .final-design-image-group img,
+    .wayo-page .final-design-image > img {
+        height: 440px;
+    }
+}
+
+@media (max-width: 768px) {
+    .wayo-page .final-design-image {
+        padding: 20px;
+        border-radius: 22px;
+    }
+    .wayo-page .final-design-image-group {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+    .wayo-page .final-design-image-group img,
+    .wayo-page .final-design-image > img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .wayo-page .final-design-image-group {
+        grid-template-columns: 1fr;
+    }
+    .wayo-page .final-design-image-group img {
+        height: 360px;
+    }
+}
+
+.wayo-page .status-pill {
+    margin-top: 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    border: 1.5px solid #CA380C;
+    border-radius: 999px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    color: #CA380C;
+    text-transform: uppercase;
+}
+
+.wayo-page .status-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #CA380C;
+    display: inline-block;
+}
+
+/* Generic reusable split section (label left / content right)
+   for the extra WAYO sections that don't have a 1:1 match in the
+   Ukrainian Children SOS page. Same grid + typography as
+   .responsibilities-container etc. */
+.wayo-page .split-section {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 90px;
+    align-items: start;
+    padding-top: 30px;
+}
+
+.wayo-page .split-label h2 {
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 40px;
+    line-height: 0.95;
+    font-weight: 500;
+    color: #CA380C;
+    letter-spacing: -0.6px;
+}
+
+.wayo-page .split-content {
+    min-width: 0;
+}
+
+.wayo-page .split-content p {
+    margin: 0 0 22px;
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.wayo-page .split-content p:last-child {
+    margin-bottom: 0;
+}
+
+.wayo-page .split-content ul {
+    margin: 0;
+    padding-left: 22px;
+}
+
+.wayo-page .split-content li {
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.wayo-page .split-content li:last-child {
+    margin-bottom: 0;
+}
+
+.wayo-page .split-content li strong {
+    font-weight: 700;
+}
+
+.wayo-page .split-divider {
+    height: 1px;
+    background: rgba(0, 0, 0, 0.55);
+    margin: 44px 0;
+}
+
+/* Card grid reused for Challenges, Insights, Insight -> Structure
+   mapping, and Analytics questions (same look as .ia-decision-item) */
+.wayo-page .card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+    margin-top: 30px;
+}
+
+.wayo-page .info-card {
+    background: rgba(255, 255, 255, 0.42);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 24px;
+    padding: 24px;
+}
+
+.wayo-page .info-card .card-eyebrow {
+    display: block;
+    margin-bottom: 12px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 600;
+    color: #CA380C;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.wayo-page .info-card p {
+    margin: 0;
+    font-size: 19px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.wayo-page .info-card p + p {
+    margin-top: 10px;
+}
+
+.wayo-page .info-card strong {
+    font-weight: 700;
+}
+
+/* Primary User: subtitle above the persona image (UP-card / about-project-info
+   below it are reused as-is from the base stylesheet). */
+.wayo-page .persona-subtitle {
+    margin: 0 0 4px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #2F2F2F;
+}
+
+/* Responsibilities list: compact two-column layout instead of one long
+   single-column stack. */
+.wayo-page .split-content p.split-eyebrow {
+    margin: 0 0 14px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 15px;
+    font-weight: 600;
+    color: #CA380C;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.wayo-page .split-content ul.two-col {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 32px;
+    row-gap: 4px;
+    padding-left: 0;
+    list-style: none;
+}
+
+.wayo-page .split-content ul.two-col li {
+    position: relative;
+    padding-left: 20px;
+    font-size: 19px;
+}
+
+.wayo-page .split-content ul.two-col li::before {
+    content: "—";
+    position: absolute;
+    left: 0;
+    color: #CA380C;
+}
+
+/* Give the right metadata column (Role / Status) more breathing room so
+   the longer WAYO values don't feel squeezed against the edge. */
+.wayo-page .about-project-info {
+    grid-template-columns: 1.3fr 1fr;
+}
+
+/* Live-product CTA reusing the pill button look of .cv-button */
+.wayo-page .live-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 28px;
+    text-decoration: none;
+    color: #EBF6FF;
+    background: #CA380C;
+    padding: 16px 30px;
+    border-radius: 999px;
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 700;
+}
+
+.wayo-page .live-cta:hover {
+    background: #000000;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .wayo-page .split-section {
+        grid-template-columns: 320px 1fr;
+        gap: 56px;
+    }
+    .wayo-page .split-label h2 {
+        font-size: 34px;
+    }
+    .wayo-page .split-content p,
+    .wayo-page .split-content li {
+        font-size: 20px;
+    }
+    .wayo-page .card-grid {
+        grid-template-columns: 1fr;
+    }
+    .wayo-page .about-project-info {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .wayo-page .split-section {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+    .wayo-page .split-label h2 {
+        font-size: 28px;
+    }
+    .wayo-page .split-content p,
+    .wayo-page .split-content li {
+        font-size: 18px;
+        line-height: 1.65;
+    }
+    .wayo-page .info-card {
+        padding: 20px;
+        border-radius: 20px;
+    }
+    .wayo-page .info-card p {
+        font-size: 17px;
+    }
+    .wayo-page .status-pill {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+    .wayo-page .live-cta {
+        font-size: 16px;
+        padding: 12px 22px;
+    }
+    .wayo-page .persona-subtitle {
+        font-size: 24px;
+    }
+    .wayo-page .split-content ul.two-col {
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+    }
+    .wayo-page .split-content ul.two-col li {
+        font-size: 17px;
+    }
+}

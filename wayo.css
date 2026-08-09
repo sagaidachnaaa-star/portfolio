@@ -1,0 +1,1584 @@
+.wayo-page .header {
+    padding: 28px 0;
+}
+.wayo-page .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wayo-page .logo a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.2px;
+}
+.wayo-page .nav{
+    display: flex;
+    gap: 62px;
+    align-items: center;
+}
+.wayo-page .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 62px;
+    align-items: center;
+}
+.wayo-page .nav-links a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 500;
+}
+.wayo-page .nav-links a:hover {
+    color:#CA380C;
+}
+.wayo-page .cv-button {
+    text-decoration: none;
+    color: #EBF6FF;
+    background: #000000;
+    padding: 12px 24px;
+    border-radius: 999px;
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 700;
+    margin-right: 0;
+}
+.wayo-page .cv-button:hover {
+    background: #CA380C;
+}
+.wayo-page {
+    margin: 0;
+    background-color: #EBF6FF;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#333;
+}
+.wayo-page .page-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+.wayo-page .header {
+    padding: 28px 0;
+}
+.wayo-page .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wayo-page .container-header {
+    max-width: 1300px;          
+    margin: 0 auto;
+    padding-left: 30px;        
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wayo-page .nav {
+    display: flex;
+    gap: 62px;
+    align-items: center;
+}
+.wayo-page .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 62px;
+    align-items: center;
+}
+.wayo-page .nav-links a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 500;
+}
+.wayo-page .cv-button {
+    text-decoration: none;
+    color: #EBF6FF;
+    background: #000000;
+    padding: 12px 24px;
+    border-radius: 999px;
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 700;
+    margin-right: 0;
+}
+.wayo-page .cv-button:hover {
+    background: #CA380C;
+}
+.wayo-page .project-page {
+    padding: 90px 0 0;
+}
+.wayo-page .back-home a {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    font-weight: 400;
+}
+.wayo-page .back-home a:hover {
+    color:#CA380C;
+}
+.wayo-page .back-arrow {
+    color: #CA380C
+}
+.wayo-page .project-hero {
+    margin-top: 35px;
+    margin-bottom: 26px;
+}
+.wayo-page .project-title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.wayo-page .project-flag {
+    display: inline-block;
+    font-size: 50px;
+    line-height: 1;
+    flex: 0 0 auto;
+}
+.wayo-page .project-title h1 {
+    margin: 0;
+    font-size: 52px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 700;
+    letter-spacing: -0.6px;
+}
+.wayo-page .project-hero > span {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    opacity: 0.75;
+}
+.wayo-page .project-mockups{
+  margin-top: 22px;
+}
+.wayo-page .project-hero-image{
+  width: 100%;
+  max-width: none;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 30px;
+}
+.wayo-page .about-project {
+    padding: 50px 0 40px;
+}
+.wayo-page .about-project-container {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 90px;
+    align-items: start;
+}
+.wayo-page .about-project-left h2 {
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 40px;
+    line-height: 0.95;
+    font-weight: 500;
+    color:#CA380C;
+    letter-spacing: -0.6px;
+}
+.wayo-page .about-project-right p {
+    margin: 0 0 38px;
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+.wayo-page .about-project-right > p:first-of-type {
+    margin-bottom: 18px;
+}
+.wayo-page .about-project-info {
+    display: grid;
+    grid-template-columns: 2.1fr 1fr;
+    column-gap: 40px;
+    row-gap: 22px;
+    margin: 0 0 34px;
+}
+.wayo-page .about-project-info p {
+    margin: 0;
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 400;
+}
+.wayo-page .about-project-info p span {
+    color:#000000;
+    opacity: 0.6;
+    font-weight: 400;
+    margin-right: 14px;
+    font-family: "JetBrains Mono", monospace;
+}
+.wayo-page .about-project-links {
+    display: flex;
+    flex-direction: column;
+    gap: 22px
+}
+.wayo-page .about-project-links a {
+    display: grid;
+    grid-template-columns: 64px 1fr 56px;
+    column-gap: 24px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 22px;
+    text-decoration: none;
+    color:#000000
+}
+.wayo-page .about-project-links a > :first-child{
+    width: 44px;
+    height: 44px;
+    display: grid;
+    place-items: center;
+}
+.wayo-page .about-project-links a > img:first-child{
+    width: 44px;
+    height: 44px;
+    display: block;
+    object-fit: contain;
+}
+.wayo-page .about-project-links a > span:first-child{
+    width: 44px;
+    height: 44px;
+    display: grid;
+    place-items: center;
+    line-height: 1;
+    font-size: 26px;
+}
+.wayo-page .about-project-links a span:nth-child(2) {
+    font-family: "Helvetica Neue", monospace;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    flex: 1;
+}
+.wayo-page .about-project-links a:hover span:nth-child(2) {
+    color:#CA380C;
+}
+.wayo-page .about-project-links a span:last-child {
+    width: 35px;
+    height: 35px;
+    border-radius: 15px;
+    background: #000;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    line-height: 1;
+    flex: 0 0 44px;
+}
+.wayo-page .about-project-links a .link-text{
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 1.1;
+}
+.wayo-page .about-project-links a:hover span:last-child {
+    background: #CA380C;
+}
+.wayo-page .about-project-divider {
+    height: 1px;
+    background: rgba(0,0,0,0.55);
+    margin: 26px 0;
+}
+.wayo-page .grey-card {
+    background: transparent;
+    padding: 0;
+}
+.wayo-page .about-project-cards {
+    margin-top: 50px;
+    display: block;
+}
+.wayo-page .about-project-cards img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 30px;
+}
+.wayo-page .responsibilities-container,
+.wayo-page .challenges-container,
+.wayo-page .goals-container {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 90px;
+    align-items: start;
+}
+.wayo-page .responsibilities-left h2,
+.wayo-page .challenges-left h2,
+.wayo-page .goals-left h2 {
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 40px;
+    font-weight: 500;
+    color: #CA380C;
+    letter-spacing: -0.6px;
+}
+.wayo-page .responsibilities-right p,
+.wayo-page .challenges-right p,
+.wayo-page .goals-right p {
+    margin: 0;
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+.wayo-page .responsibilities-divider,
+.wayo-page .challenges-divider,
+.wayo-page .goals-divider {
+    height: 1px;
+    background: rgba(0,0,0,0.55);
+    margin: 40px 0;
+}
+.wayo-page .goals-right ul {
+    margin: 24px 0 0;
+    padding-left: 24px;
+}
+.wayo-page .goals-right li {
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.wayo-page .ux-quote-banner {
+    margin: 70px auto 60px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    text-align: center;
+}
+
+.wayo-page .ux-quote-banner .quote-mark {
+    flex-shrink: 0;
+    font-size: 90px;
+    line-height: 0.7;
+    font-weight: 700;
+    color: #CA380C;
+}
+
+.wayo-page .ux-quote-banner p {
+    margin: 0;
+    font-size: 40px;
+    line-height: 1.25;
+    font-weight: 700;
+    color: #1F3E68;
+    letter-spacing: -0.8px;
+}
+
+.wayo-page .ux-quote-banner p span {
+    color: #CA380C;
+}
+.wayo-page .mobile-block.grey-card {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    max-width: 1194px;
+    margin: 40px auto 0;
+    padding: 70px 90px;
+}
+
+.wayo-page .mobile-mockups {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 31px;
+}
+.wayo-page .mobile-mockups img {
+    width: 276px;
+    height: 596px;
+    display: block;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 10px;
+}
+.wayo-page .UX-research-section {
+    padding: 30px 0 0;
+}
+.wayo-page .UX-research-container {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 90px;
+    align-items: start;
+}
+.wayo-page .UX-research-left h2 {
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 40px;
+    line-height: 0.95;
+    font-weight: 500;
+    color: #CA380C;
+    letter-spacing: -0.6px;
+}
+.wayo-page .UX-right p {
+    margin: 0 0 18px;
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+.wayo-page .UX-right p.ux-intro{
+  font-weight: 600;
+}
+.wayo-page .UX-right ul {
+    margin: 0;
+    padding-left: 22px;
+    font-size: 22px;
+    line-height: 1.7;
+}
+.wayo-page .UX-right li {
+    margin: 8px 0;
+}
+.wayo-page .UX-research-divider {
+    height: 1px;
+    background: rgba(0,0,0,0.55);
+    margin: 44px 0;
+}
+.wayo-page .UP-container {
+    display: block;
+    grid-template-columns: 380px 1fr;
+    gap: 90px;
+    align-items: start;
+    padding-top: 10px;
+}
+.wayo-page .UP-left h2 {
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 44px;
+    line-height: 0.95;
+    font-weight: 500;
+    color: #CA380C;
+    letter-spacing: -0.6px;
+}
+.wayo-page .UP-card {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 26px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+.wayo-page .UP-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.wayo-page .UP-right > p {
+    margin: 0 0 18px;
+    font-size: 20px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+.wayo-page .persona-points {
+    margin-top: 10px;
+}
+.wayo-page .persona-points span {
+    color:#CA380C;
+}
+.wayo-page .persona-points p {
+    margin: 10px 0;
+    font-size: 20px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+.wayo-page .UP-divider {
+    height: 1px;
+    background: rgba(0,0,0,0.55);
+    margin: 44px 0 0;
+}
+.wayo-page .IA-section {
+    padding: 30px 0 0;
+}
+.wayo-page .IA-container {
+    display: block;
+    grid-template-columns: 380px 1fr;
+    gap: 90px;
+    align-items: start;
+    padding-top: 30px;
+}
+.wayo-page .structure-left h2 {
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 40px;
+    line-height: 0.95;
+    font-weight: 500;
+    color: #CA380C;
+    letter-spacing: -0.6px;
+}
+.wayo-page .structure-image-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.wayo-page .structure-points p {
+    margin: 10px 0;
+    font-size: 20px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+.wayo-page .IA-divider {
+    height: 1px;
+    background: rgba(0,0,0,0.55);
+    margin: 40px 0 0;
+}
+.wayo-page .structure-points span {
+    color:#CA380C;
+}
+.wayo-page .UF-section {
+    padding: 10px 0 0;
+}
+.wayo-page .UF-container {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.wayo-page .UF-left h2 {
+    margin: 0 0 30px 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 40px;
+    line-height: 0.95;
+    font-weight: 500;
+    color: #CA380C;
+    letter-spacing: -0.6px;
+}
+.wayo-page .UF-right {
+    width: 100%;
+}
+.wayo-page .UF-right p {
+    margin: 22px 0 0;
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+.wayo-page .UF-divider {
+    height: 1px;
+    background: rgba(0,0,0,0.55);
+    margin: 40px 0;
+}
+.wayo-page .UF-image {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.wayo-page .UF-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.wayo-page .final-design-section {
+    padding: 0 0 80px;
+}
+
+.wayo-page .final-design-heading {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 90px;
+    align-items: start;
+    margin-bottom: 56px;
+}
+
+.wayo-page .final-design-heading h2 {
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 40px;
+    line-height: 0.95;
+    font-weight: 500;
+    color: #CA380C;
+    letter-spacing: -0.6px;
+}
+
+.wayo-page .final-design-heading p {
+    margin: 0;
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.wayo-page .final-design-grid-row {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 56px;
+    align-items: center;
+    margin-bottom: 56px;
+}
+
+.wayo-page .final-design-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 30px;
+}
+
+.wayo-page .final-design-copy {
+    max-width: 520px;
+}
+
+.wayo-page .design-label {
+    display: inline-block;
+    margin-bottom: 18px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 15px;
+    font-weight: 500;
+    color: #CA380C;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.wayo-page .final-design-copy h3 {
+    margin: 0 0 20px;
+    font-size: 32px;
+    line-height: 1.15;
+    font-weight: 700;
+    color: #2F2F2F;
+}
+
+.wayo-page .final-design-copy p {
+    margin: 0 0 18px;
+    font-size: 20px;
+    line-height: 1.65;
+    font-weight: 400;
+    color: #2F2F2F;
+}
+.wayo-page .learned-container {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 90px;
+    align-items: start;
+    margin-top: 40px;
+}
+
+.wayo-page .learned-left h2 {
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 40px;
+    font-weight: 500;
+    color: #CA380C;
+    letter-spacing: -0.6px;
+}
+
+.wayo-page .learned-right p {
+    margin: 0 0 24px;
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.wayo-page .learned-right p:last-child {
+    margin-bottom: 0;
+}
+
+.wayo-page .final-design-divider {
+    height: 1px;
+    background: rgba(0,0,0,0.55);
+    margin: 60px 0 40px;
+}
+.contact {
+    padding: 20px 0 40px;
+}
+
+.container-contact {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 80px;
+    align-items: start;
+}
+
+.contact-left h3 {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    line-height: 0.95;
+    font-weight: 700;
+    color: #333;
+}
+
+.contact-right {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contact-links a {
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    color: #CA380C;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 8px;
+}
+
+.contact-links a:hover {
+    opacity: 0.8;
+}
+
+.footer {
+    margin-top: 130px;
+    padding-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    opacity: 0.9;
+}
+
+.footer a {
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+/* ================================
+   NARRATIVE CASE STUDY SECTIONS
+================================ */
+
+/* From Persona to Structure */
+.wayo-page .decision-bridge-container {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 90px;
+    align-items: start;
+    padding-top: 30px;
+}
+
+.wayo-page .decision-bridge-left h2 {
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 40px;
+    line-height: 0.95;
+    font-weight: 500;
+    color: #CA380C;
+    letter-spacing: -0.6px;
+}
+
+.wayo-page .decision-bridge-right p {
+    margin: 0 0 24px;
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.wayo-page .decision-bridge-right p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Information Architecture */
+.wayo-page .IA-container {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 90px;
+    align-items: start;
+    padding-top: 30px;
+}
+
+.wayo-page .structure-left h2 {
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 40px;
+    line-height: 0.95;
+    font-weight: 500;
+    color: #CA380C;
+    letter-spacing: -0.6px;
+}
+
+.wayo-page .structure-right {
+    min-width: 0;
+}
+
+.wayo-page .structure-intro {
+    margin: 0 0 30px;
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.wayo-page .structure-image-box {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 30px;
+    background: transparent;
+}
+
+.wayo-page .structure-image-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+
+
+/* IA pain point → design decision cards */
+.wayo-page .ia-decision-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+    margin-top: 30px;
+}
+
+.wayo-page .ia-decision-item {
+    background: rgba(255, 255, 255, 0.42);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 24px;
+    padding: 24px;
+}
+
+.wayo-page .ia-decision-item .ia-pain {
+    display: block;
+    margin-bottom: 12px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 600;
+    color: #CA380C;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.wayo-page .ia-decision-item p {
+    margin: 0;
+    font-size: 19px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.wayo-page .ia-decision-item strong {
+    font-weight: 700;
+}
+
+
+/* User Flow */
+.wayo-page .UF-container {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 90px;
+    align-items: start;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.wayo-page .UF-left h2 {
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 40px;
+    line-height: 0.95;
+    font-weight: 500;
+    color: #CA380C;
+    letter-spacing: -0.6px;
+}
+
+.wayo-page .UF-right {
+    width: 100%;
+    min-width: 0;
+}
+
+.wayo-page .UF-image {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.wayo-page .UF-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.wayo-page .UF-right p {
+    margin: 24px 0 0;
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+
+/* Dividers */
+.wayo-page .IA-divider,
+.wayo-page .UF-divider,
+.wayo-page .final-design-divider {
+    height: 1px;
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.wayo-page .IA-divider {
+    margin: 44px 0;
+}
+
+.wayo-page .UF-divider {
+    margin: 44px 0;
+}
+
+.wayo-page .final-design-divider {
+    margin: 60px 0 40px;
+}
+
+
+/* Final Design intro */
+.wayo-page .final-design-heading {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 90px;
+    align-items: start;
+    margin-bottom: 56px;
+}
+
+.wayo-page .final-design-heading h2 {
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 40px;
+    line-height: 0.95;
+    font-weight: 500;
+    color: #CA380C;
+    letter-spacing: -0.6px;
+}
+
+.wayo-page .final-design-heading p {
+    margin: 0;
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+
+/* Final Design grid rows */
+.wayo-page .final-design-grid-row {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 56px;
+    align-items: center;
+    margin-bottom: 56px;
+}
+
+.wayo-page .final-design-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 30px;
+}
+
+.wayo-page .final-design-copy {
+    max-width: 560px;
+}
+
+.wayo-page .design-label {
+    display: inline-block;
+    margin-bottom: 18px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 15px;
+    font-weight: 600;
+    color: #CA380C;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.wayo-page .final-design-copy h3 {
+    margin: 0 0 20px;
+    font-size: 32px;
+    line-height: 1.15;
+    font-weight: 700;
+    color: #2F2F2F;
+}
+
+.wayo-page .final-design-copy p {
+    margin: 0 0 18px;
+    font-size: 20px;
+    line-height: 1.65;
+    font-weight: 400;
+    color: #2F2F2F;
+}
+
+.wayo-page .final-design-copy p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* What I Learned */
+.wayo-page .learned-container {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 90px;
+    align-items: start;
+    margin-top: 40px;
+}
+
+.wayo-page .learned-left h2 {
+    margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 40px;
+    line-height: 0.95;
+    font-weight: 500;
+    color: #CA380C;
+    letter-spacing: -0.6px;
+}
+
+.wayo-page .learned-right p {
+    margin: 0 0 24px;
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.wayo-page .learned-right p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Small fixes for existing sections */
+.wayo-page .challenges-right p {
+    margin-bottom: 24px;
+}
+
+.wayo-page .challenges-right p:last-child {
+    margin-bottom: 0;
+}
+
+.wayo-page .UP-right,
+.wayo-page .UX-right,
+.wayo-page .structure-right,
+.wayo-page .UF-right,
+.wayo-page .final-design-copy,
+.wayo-page .learned-right {
+    min-width: 0;
+}
+.project-hero-image,
+.project-hero-video {
+    width: 100%;
+    display: block;
+    border-radius: 24px;
+    object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .wayo-page .decision-bridge-container,
+    .wayo-page .IA-container,
+    .wayo-page .UF-container,
+    .wayo-page .final-design-heading,
+    .wayo-page .learned-container {
+        grid-template-columns: 320px 1fr;
+        gap: 56px;
+    }
+
+    .wayo-page .decision-bridge-left h2,
+    .wayo-page .structure-left h2,
+    .wayo-page .UF-left h2,
+    .wayo-page .final-design-heading h2,
+    .wayo-page .learned-left h2 {
+        font-size: 34px;
+    }
+
+    .wayo-page .decision-bridge-right p,
+    .wayo-page .structure-intro,
+    .wayo-page .UF-right p,
+    .wayo-page .final-design-heading p,
+    .wayo-page .learned-right p {
+        font-size: 20px;
+    }
+
+    .wayo-page .ia-decision-list {
+        grid-template-columns: 1fr;
+    }
+
+    .wayo-page .final-design-grid-row {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .wayo-page .final-design-copy {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .wayo-page .decision-bridge-container,
+    .wayo-page .IA-container,
+    .wayo-page .UF-container,
+    .wayo-page .final-design-heading,
+    .wayo-page .learned-container {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .wayo-page .decision-bridge-left h2,
+    .wayo-page .structure-left h2,
+    .wayo-page .UF-left h2,
+    .wayo-page .final-design-heading h2,
+    .wayo-page .learned-left h2 {
+        font-size: 28px;
+    }
+
+    .wayo-page .decision-bridge-right p,
+    .wayo-page .structure-intro,
+    .wayo-page .UF-right p,
+    .wayo-page .final-design-heading p,
+    .wayo-page .learned-right p {
+        font-size: 18px;
+        line-height: 1.65;
+    }
+
+    .wayo-page .ia-decision-item {
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .wayo-page .ia-decision-item p {
+        font-size: 17px;
+    }
+
+    .wayo-page .final-design-grid-row {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        margin-bottom: 44px;
+    }
+
+    .wayo-page .final-design-copy h3 {
+        font-size: 26px;
+    }
+
+    .wayo-page .final-design-copy p {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    .wayo-page .structure-image-box,
+    .wayo-page .UF-image,
+    .wayo-page .final-design-image img {
+        border-radius: 22px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .wayo-page .page-container,
+    .wayo-page .container-header,
+    .wayo-page .container-contact {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .wayo-page .mobile-block.grey-card{
+        padding: 40px 24px;
+        margin-top: 28px;
+    }
+    .wayo-page .mobile-mockups{
+        flex-wrap: wrap;
+        gap: 18px;
+    }
+    .wayo-page .mobile-mockups img{
+        height: 420px;
+        width: auto;
+    }
+    .wayo-page .project-page {
+        padding: 70px 0 0;
+    }
+    .wayo-page .nav,
+    .wayo-page .nav-links {
+        gap: 36px;
+    }
+    .wayo-page .project-title h1 {
+        font-size: 44px;
+    }
+    .wayo-page .about-project-left h2,
+    .wayo-page .responsibilities-left h2,
+    .wayo-page .challenges-left h2,
+    .wayo-page .UX-research-left h2,
+    .wayo-page .structure-left h2,
+    .wayo-page .UF-left h2,
+    .wayo-page .final-design-left h2,
+    .wayo-page .wireframes-container h2 {
+        font-size: 34px;
+    }
+    .wayo-page .about-project-right p,
+    .wayo-page .responsibilities-right p,
+    .wayo-page .challenges-right p,
+    .wayo-page .UX-right p,
+    .wayo-page .UX-right ul,
+    .wayo-page .UF-right p,
+    .wayo-page .final-design-text p {
+        font-size: 20px;
+        padding-left: 60px;
+        padding-right: 60px;
+        max-width: 100%;
+    }
+    .wayo-page .project-mockup-container {
+        gap: 24px;
+        padding: 20px;
+    }
+    .wayo-page .project-mockup-left img {
+        width: 420px;
+        margin-left: 0;
+    }
+    .wayo-page .project-mockup-right {
+        margin-right: 0;
+    }
+    .wayo-page .project-mockup-right img {
+        width: 140px;
+    }
+    .wayo-page .about-project-container,
+    .wayo-page .responsibilities-container,
+    .wayo-page .challenges-container,
+    .wayo-page .UX-research-container,
+    .wayo-page .UF-container {
+        grid-template-columns: 320px 1fr;
+        gap: 56px;
+    }
+    .wayo-page .mobile-block,
+    .wayo-page .gallery-box1 {
+        padding: 32px 40px;
+        gap: 28px;
+    }
+    .wayo-page .mobile-block img,
+    .wayo-page .gallery-box1 img {
+        height: 360px;
+    }
+    .wayo-page .final-design-card,
+    .wayo-page .gallery-box2 {
+        gap: 56px;
+        padding: 44px 48px;
+    }
+    .wayo-page .contact-left h2 {
+        font-size: 110px;
+    }
+    .wayo-page .contact-right h3 {
+        font-size: 46px;
+        margin-bottom: 28px;
+    }
+    .wayo-page .contact-links a {
+        font-size: 36px;
+        text-underline-offset: 8px;
+    }
+    .wayo-page .footer {
+        margin-top: 48px;
+    }
+@media (max-width: 1024px){
+  .wayo-page .gallery-mobiles{
+    padding: 0 24px;
+    gap: 28px;
+  }
+  .wayo-page .wireframes-section,
+  .wayo-page .final-design-section,
+  .wayo-page .gallery-section{
+    padding-bottom: 40px;
+  }
+    
+  .wayo-page .gallery-mobiles img{
+    height: 340px;
+  }
+  .wayo-page .wireframes-title,
+  .wayo-page .final-design-left h2{
+    font-size: 34px;
+  }
+
+  .wayo-page .final-design-text{
+    margin-top: 24px;
+    max-width: 100%;
+  }
+
+  .wayo-page .final-design-text p{
+    font-size: 18px;
+    line-height: 1.65;
+  }
+
+  .wayo-page .final-design-card img,
+  .wayo-page .gallery-desktop img{
+    border-radius: 24px;
+  }
+
+  .wayo-page .gallery-grey{
+    padding: 40px 24px;
+    border-radius: 24px;
+  }
+
+  .wayo-page .gallery-mobiles{
+    flex-wrap: wrap;
+    gap: 18px;
+  }
+
+  .wayo-page .gallery-mobiles img{
+    height: 420px;
+    width: auto;
+  }
+}
+@media (max-width: 900px) {
+    .wayo-page .learned-container {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .wayo-page .learned-left h2 {
+        font-size: 34px;
+    }
+
+    .wayo-page .learned-right p {
+        font-size: 18px;
+    }
+}
+@media (max-width: 768px) {
+    .wayo-page .page-container,
+    .wayo-page .container-header,
+    .wayo-page .container-contact {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+    .wayo-page .mobile-block.grey-card{
+        padding: 22px 16px;
+        border-radius: 22px;
+    }
+    .wayo-page .wireframes-section,
+  .wayo-page .final-design-section,
+  .wayo-page .gallery-section{
+    padding-bottom: 30px;
+  }
+
+  .wayo-page .wireframes-title,
+  .wayo-page .final-design-left h2{
+    font-size: 28px;
+    letter-spacing: -0.3px;
+  }
+
+  .wayo-page .wireframes-box{
+    gap: 18px;
+  }
+
+  .wayo-page .final-design-card img,
+  .wayo-page .gallery-desktop img{
+    border-radius: 20px;
+  }
+
+  .wayo-page .final-design-text{
+    margin-top: 18px;
+  }
+  .wayo-page .final-design-text p{
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+  .wayo-page .gallery-grey{
+    padding: 22px 16px;
+    border-radius: 22px;
+  }
+  .wayo-page .gallery-mobiles{
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    gap: 16px;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 6px;
+  }
+
+  .wayo-page .gallery-mobiles img{
+    flex: 0 0 auto;
+    height: 360px;
+    width: auto;
+    scroll-snap-align: start;
+  }
+    .wayo-page .mobile-mockups{
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        gap: 16px;
+        scroll-snap-type: x mandatory;
+        padding-bottom: 6px;
+    }
+    .wayo-page .mobile-mockups img{
+        flex: 0 0 auto;
+        height: 360px;
+        width: auto;
+        scroll-snap-align: start;
+    }
+     .wayo-page .project-page {
+        padding: 52px 0 0;
+    }
+    .wayo-page .nav {
+        width: 100%;
+        justify-content: space-between;
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+    .wayo-page .nav-links {
+        gap: 18px;
+        flex-wrap: wrap;
+    }
+    .wayo-page .nav-links a,
+    .wayo-page .cv-button {
+        font-size: 16px;
+    }
+    .wayo-page .cv-button {
+        padding: 10px 18px;
+    }
+    .wayo-page .project-title {
+        gap: 12px;
+    }
+    .wayo-page .project-flag {
+        font-size: 40px;
+    }
+    .wayo-page .project-title h1 {
+        font-size: 34px;
+        letter-spacing: -0.3px;
+    }
+    .wayo-page .about-project-left h2,
+    .wayo-page .responsibilities-left h2,
+    .wayo-page .challenges-left h2,
+    .wayo-page .UX-research-left h2,
+    .wayo-page .structure-left h2,
+    .wayo-page .UF-left h2,
+    .wayo-page .final-design-left h2,
+    .wayo-page .wireframes-container h2 {
+        font-size: 28px;
+    }
+    .wayo-page .about-project-right p,
+    .wayo-page .responsibilities-right p,
+    .wayo-page .challenges-right p,
+    .wayo-page .UX-right p,
+    .wayo-page .UX-right ul,
+    .wayo-page .UF-right p,
+    .wayo-page .final-design-text p {
+        font-size: 18px;
+    }
+    .wayo-page .project-mockup-container {
+        grid-template-columns: 1fr;
+        gap: 18px;
+        padding: 16px;
+    }
+    .wayo-page .project-mockup-left img {
+        width: 100%;
+        margin-left: 0;
+        max-width: 420px;
+    }
+    .wayo-page .project-mockup-right {
+        justify-content: center;
+        margin-right: 0;
+        flex-wrap: wrap;
+    }
+    .wayo-page .project-mockup-right img {
+        width: 120px;
+    }
+    .wayo-page .about-project-container,
+    .wayo-page .responsibilities-container,
+    .wayo-page .challenges-container,
+    .wayo-page .UX-research-container,
+    .wayo-page .UF-container {
+        grid-template-columns: 1fr;
+        gap: 22px;
+    }
+    .wayo-page .mobile-block,
+    .wayo-page .gallery-box1 {
+        padding: 22px 18px;
+        gap: 18px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .wayo-page .mobile-block img,
+    .wayo-page .gallery-box1 img {
+        height: 300px;
+    }
+    .wayo-page .final-design-card,
+    .wayo-page .gallery-box2 {
+        flex-direction: column;
+        gap: 22px;
+        padding: 22px 18px;
+    }
+    .wayo-page .wireframes-box {
+        padding: 22px 18px;
+        gap: 18px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .wayo-page .wireframes-box img {
+        max-width: 260px;
+    }
+    .wayo-page .contact-left h2 {
+        font-size: 72px;
+        line-height: 0.95;
+    }
+    .wayo-page .contact-right h3 {
+        font-size: 34px;
+        margin-bottom: 18px;
+    }
+    .wayo-page .contact-links a {
+        font-size: 26px;
+        text-underline-offset: 7px;
+        text-decoration-thickness: 3px;
+    }
+    .wayo-page .footer {
+        margin-top: 36px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .wayo-page .footer p {
+        font-size: 18px;
+    }
+    .wayo-page .footer a {
+        font-size: 16px;
+    }
+    .wayo-page .gallery-grey{
+    padding: 40px 0;
+  }
+  .wayo-page .gallery-mobiles{
+    padding: 0 16px;
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+  .wayo-page .gallery-mobiles img{
+    height: 300px;
+  }
+}
+@media (max-width: 900px) {
+  .wayo-page .mobile-block.grey-card {
+    padding: 40px 24px;
+  }
+
+  .wayo-page .mobile-mockups {
+    gap: 20px;
+  }
+
+  .wayo-page .mobile-mockups img {
+    height: 320px;
+  }
+}
+@media (max-width: 390px){
+  .wayo-page .mobile-mockups img{
+    height: 320px;
+  }
+  .wayo-page .gallery-mobiles img{
+    height: 320px;
+  }
+}
+}
