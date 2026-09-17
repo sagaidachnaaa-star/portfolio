@@ -6,6 +6,7 @@ const AMPLITUDE_API_KEY = "d2371bbd6b46b59bb561709817132604";
 
 if (window.amplitude) {
   window.amplitude.init(AMPLITUDE_API_KEY, {
+    serverZone: "EU", 
     autocapture: {
       pageViews: true,
       sessions: true,
