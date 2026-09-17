@@ -2,7 +2,7 @@
 // Amplitude Analytics
 // ------------------------------
 
-const AMPLITUDE_API_KEY = "0f544da3f8c13464a87b1d6a96d599f7";
+const AMPLITUDE_API_KEY = "d2371bbd6b46b59bb561709817132604";
 
 if (window.amplitude) {
   window.amplitude.init(AMPLITUDE_API_KEY, {
