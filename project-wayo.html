@@ -4,12 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WAYO | Iryna Sahaidachna</title>
-  <link rel="stylesheet" href="styles.css?v=3">
-  <link rel="stylesheet" href="wayo.css?v=3">
-  <link rel="stylesheet" href="wayo-extra.css?v=3">
+  <link rel="stylesheet" href="styles.css?v=7">
+  <link rel="stylesheet" href="wayo.css?v=7">
+  <link rel="stylesheet" href="wayo-extra.css?v=8">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Electrolize&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+  <script src="https://cdn.amplitude.com/libs/analytics-browser-2.45.8-min.js.gz"></script>
+  <script src="analytics.js" defer></script>
 </head>
 
 <body id="top" class="wayo-page">
@@ -63,8 +65,8 @@
                     </div>
 
                     <div class="about-project-right">
-                        <p>WAYO is a mobile-first urban exploration product that helps people discover new places through ready-made quests, explore routes and collect digital stamps as a record of their experiences.</p>
-                        <p>Unlike a concept-only case study, WAYO has been developed into a live MVP. As Co-founder and Product Designer, I continue to develop the product through user feedback, usability testing and post-launch analytics.</p>
+                        <p>WAYO is a mobile-first urban exploration app. It turns exploring a city into ready-made quests — short, self-guided routes with a handful of stops and the practical info you need before setting off — and a Passport where completed quests turn into collectible digital stamps.</p>
+                        <p>Unlike a concept-only case study, WAYO has been designed, coded and shipped as a live MVP. As Co-founder and Product Designer, I continue to develop the product through user feedback, usability testing and post-launch analytics.</p>
 
                         <div class="about-project-info">
                             <p><span>Year:</span> 2026</p>
@@ -98,8 +100,8 @@
                         <h2>The<br>Problem</h2>
                     </div>
                     <div class="split-content">
-                        <p>People living in large cities often fall into familiar routines, repeatedly visiting the same places even when they want to explore more. The problem is not a lack of places to discover, but the effort required to find something that feels worth the time.</p>
-                        <p>Planning a new outing is often fragmented across Google Maps, social media, reviews and transport information. Even after choosing a place, the experience can feel passive, with little sense of progress, achievement or reason to continue exploring.</p>
+                        <p>I love travelling and discovering new places, but I kept running into the same problem: planning even a simple day out took far longer than it should. I'd end up bouncing between Google Maps, TikTok and Instagram, reviews, transport apps and half-remembered recommendations just to decide where to go and whether it was actually worth it.</p>
+                        <p>I wasn't sure if that was just me, so I started asking other people who explore cities regularly — and found the same pattern: plenty of curiosity about new places, but not much patience for the research it took to act on it. That gap became the starting point for WAYO.</p>
                     </div>
                 </div>
 
@@ -117,7 +119,8 @@
                         <h2>My Role &amp;<br>Responsibilities</h2>
                     </div>
                     <div class="split-content">
-                        <p>I co-founded WAYO and lead product design end-to-end — from early product strategy and MVP prioritisation to a live product that continues to evolve after launch.</p>
+                        <p>I co-founded WAYO and led product design from 0 to 1 — from the original problem and early research, through product definition, UX/UI design and prototyping, to a live product I coded and built myself.</p>
+                        <p>Owning the build alongside the design meant I could test real technical constraints early, rather than handing off a Figma file and stopping there.</p>
                         <p class="split-eyebrow">Responsibilities:</p>
                         <ul class="two-col">
                             <li>Product strategy &amp; MVP prioritisation</li>
@@ -126,63 +129,8 @@
                             <li>Information architecture &amp; user flows</li>
                             <li>Wireframing, prototyping &amp; mobile UI design</li>
                             <li>Accessibility &amp; inclusive UX</li>
-                            <li>Design QA &amp; implementation support</li>
+                            <li>Front-end &amp; back-end development</li>
                             <li>Launch, analytics &amp; ongoing iteration</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <div class="split-divider"></div>
-
-            <section>
-                <div class="split-section">
-                    <div class="split-label">
-                        <h2>User &amp;<br>Product Challenges</h2>
-                    </div>
-                    <div class="split-content">
-                        <p>Research revealed four core product challenges that shaped the MVP.</p>
-                    </div>
-                </div>
-
-                <div class="card-grid">
-                    <div class="info-card">
-                        <span class="card-eyebrow">User need</span>
-                        <p>Discover somewhere new without spending ages planning.</p>
-                        <p><strong>WAYO response:</strong> Ready-made quests reduce the research and planning required before going out.</p>
-                    </div>
-                    <div class="info-card">
-                        <span class="card-eyebrow">User need</span>
-                        <p>Know whether a quest is worth the time before committing.</p>
-                        <p><strong>WAYO response:</strong> Visual quest cards and Quest Detail surface duration, distance, difficulty, accessibility and what users will discover.</p>
-                    </div>
-                    <div class="info-card">
-                        <span class="card-eyebrow">User need</span>
-                        <p>Find experiences that match practical and accessibility needs.</p>
-                        <p><strong>WAYO response:</strong> Filters and accessibility information help users narrow quests before starting.</p>
-                    </div>
-                    <div class="info-card">
-                        <span class="card-eyebrow">User need</span>
-                        <p>Feel motivated without competing with other people.</p>
-                        <p><strong>WAYO response:</strong> The Passport, stamps and personal progress create achievement without leaderboards.</p>
-                    </div>
-                </div>
-            </section>
-
-            <div class="split-divider"></div>
-
-            <section>
-                <div class="split-section">
-                    <div class="split-label">
-                        <h2>Product<br>Goals</h2>
-                    </div>
-                    <div class="split-content">
-                        <ul>
-                            <li><strong>Reduce planning effort.</strong> Help users quickly find ready-made activities.</li>
-                            <li><strong>Support confident decisions.</strong> Give users useful information before starting a quest.</li>
-                            <li><strong>Create motivation to explore.</strong> Use progress, stamps and collections.</li>
-                            <li><strong>Keep exploration lightweight.</strong> Make quests feel achievable, flexible and simple.</li>
-                            <li><strong>Build for iteration.</strong> Launch a focused MVP and improve it using research and analytics.</li>
                         </ul>
                     </div>
                 </div>
@@ -193,13 +141,14 @@
             <section class="UX-research-section">
                 <div class="UX-research-container">
                     <div class="UX-research-left">
-                        <h2>UX Research<br>&amp; Key Insights</h2>
+                        <h2>Research &amp;<br>Key Insights</h2>
                     </div>
 
                     <div class="UX-right">
                         <p>
-                            Early research combined user interviews and competitor analysis to understand how people
-                            currently discover new places, and what would make a quest-based app worth returning to.
+                            To go beyond my own experience, I ran a round of in-depth interviews with people who
+                            explore cities regularly, alongside competitor research into how people currently plan
+                            a day out. A few patterns came up again and again.
                         </p>
                     </div>
                 </div>
@@ -207,44 +156,40 @@
                 <div class="card-grid">
                     <div class="info-card">
                         <span class="card-eyebrow">Insight 1 — Reduce the planning, not the curiosity</span>
-                        <p>Users were open to exploring new places but wanted the planning effort reduced.</p>
-                        <p><strong>Product response:</strong> Ready-made nearby quests and quick discovery options.</p>
+                        <p>People were genuinely open to exploring somewhere new — time, not interest, was the biggest barrier to actually doing it.</p>
                     </div>
                     <div class="info-card">
                         <span class="card-eyebrow">Insight 2 — Decision confidence comes before commitment</span>
-                        <p>Before starting, users wanted to understand duration, distance, difficulty, transport, comfort, safety and what they would discover.</p>
-                        <p><strong>Product response:</strong> A detailed Quest screen containing important decision-making information.</p>
+                        <p>Before starting, people wanted to know duration, distance, difficulty and cost — and, as one respondent put it, “what I'll get out of this place.”</p>
                     </div>
                     <div class="info-card">
-                        <span class="card-eyebrow">Insight 3 — Discovery is highly visual</span>
-                        <p>Photos and the visual atmosphere of a location strongly affected whether users wanted to visit.</p>
-                        <p><strong>Product response:</strong> Large visual quest cards, concise descriptions and useful tags.</p>
+                        <span class="card-eyebrow">Insight 3 — Practical details decide whether a place is worth it</span>
+                        <p>Weather, accessibility, nearby food and cost came up repeatedly — not as nice-to-haves, but as things people needed to know upfront, not after they'd already arrived.</p>
                     </div>
                     <div class="info-card">
                         <span class="card-eyebrow">Insight 4 — Progress was more motivating than competition</span>
-                        <p>Most participants preferred personal progress over rankings, scores or leaderboards.</p>
-                        <p><strong>Product response:</strong> Personal collection and progression instead of competitive mechanics.</p>
+                        <p>Personal progress was consistently preferred over leaderboards or rankings, especially since not everyone has equal time or money to travel. One respondent was blunt about it: “no ads, no pressure.”</p>
                     </div>
                     <div class="info-card">
-                        <span class="card-eyebrow">Insight 5 — Stamps were perceived as memories, not only rewards</span>
-                        <p>Users liked the idea of collecting proof of the places and experiences they completed.</p>
-                        <p><strong>Product response:</strong> The Digital Passport became one of WAYO's central features.</p>
+                        <span class="card-eyebrow">Insight 5 — Stamps felt like memories, not just rewards</span>
+                        <p>People liked the idea of collecting proof of what they'd completed. Several described it less like a points system and more like a “digital diary” of places they'd actually been.</p>
                     </div>
+                </div>
+
+                <div class="research-evidence">
+                    <img src="images/UserInterviewInsights.png" alt="WAYO user interview notes and research insights">
                 </div>
 
                 <div class="UX-research-divider"></div>
 
-                <!-- Primary User -->
+                <!-- User Persona -->
                 <div class="UP-container">
                     <div class="UP-left">
-                        <h2>Primary<br>User</h2>
+                        <h2>User<br>Persona</h2>
                     </div>
 
                     <div class="UP-right">
-                        <h3 class="persona-subtitle">The Casual Urban Explorer</h3>
-                        <div class="UP-card">
-                            <img src="images/UserPersona1(WAYO).png" alt="WAYO primary user persona research">
-                        </div>
+                        <p>Based on the research findings and the target audience identified, I created a user persona to represent the needs, behaviours and motivations that shaped WAYO.</p>
                         <div class="about-project-info">
                             <p><span>Age:</span> 18–35</p>
                             <p><span>Context:</span> Lives in or regularly explores London</p>
@@ -252,10 +197,35 @@
                             <p><span>Frustrations:</span> Too much research and uncertainty about whether somewhere is worth visiting</p>
                             <p><span>Motivation:</span> Personal experiences, memories and visible progress rather than competition</p>
                         </div>
+                        <div class="UP-card">
+                            <img src="images/UserPersona1(WAYO).png" alt="WAYO primary user persona research">
+                        </div>
                     </div>
                 </div>
                 <div class="UP-divider"></div>
             </section>
+
+            <section>
+                <div class="split-section">
+                    <div class="split-label">
+                        <h2>Product<br>Goals</h2>
+                    </div>
+                    <div class="split-content">
+                        <p>Those insights turned into goals framed around what should change for the user, not just what the product should do:</p>
+                        <ul>
+                            <li><strong>Save time when planning.</strong> Put the information someone needs in one place, so they spend less time researching and more time actually exploring.</li>
+                            <li><strong>Make saying yes an easy decision.</strong> Surface enough detail upfront that committing to a quest doesn't feel like a gamble.</li>
+                            <li><strong>Fit around practical needs.</strong> Make it quick to find something that matches accessibility, weather, budget or time, instead of finding out too late that it doesn't.</li>
+                            <li><strong>Give people a reason to keep exploring.</strong> Build motivation around personal progress rather than rankings, so it stays enjoyable instead of pressured.</li>
+                            <li><strong>Keep quests achievable.</strong> Design experiences that fit into a spare hour or afternoon, not something that feels like a big commitment.</li>
+                            <li><strong>Make narrowing down choices effortless.</strong> Use filtering so deciding what to do takes seconds, not another round of scrolling.</li>
+                            <li><strong>Learn from real behaviour.</strong> Launch a focused MVP and let actual usage and feedback shape what comes next.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <div class="split-divider"></div>
 
             <section class="IA-section">
                 <div class="decision-bridge-container">
@@ -265,36 +235,13 @@
 
                     <div class="decision-bridge-right">
                         <p>
-                            Each recurring insight was translated directly into a part of the product, so the structure
-                            reflects what research actually surfaced rather than a list of features.
+                            These insights shaped the product's structure directly. Explore surfaces ready-made
+                            quests instead of asking people to research a route themselves. Quest Detail answers
+                            "is this worth it?" before anyone commits. The Passport turns completed quests into a
+                            personal record rather than a scoreboard. Saved and Profile round out the four main
+                            tabs, giving people somewhere to hold onto quests for later and see their exploration
+                            in one place.
                         </p>
-                    </div>
-                </div>
-
-                <div class="card-grid">
-                    <div class="info-card">
-                        <span class="card-eyebrow">“I don't want to spend ages planning.”</span>
-                        <p><strong>→ Explore</strong> — ready-made quests</p>
-                    </div>
-                    <div class="info-card">
-                        <span class="card-eyebrow">“Is this worth visiting?”</span>
-                        <p><strong>→ Quest Detail</strong> — important decision-making information</p>
-                    </div>
-                    <div class="info-card">
-                        <span class="card-eyebrow">“How do I complete it?”</span>
-                        <p><strong>→ Active Quest / Map</strong></p>
-                    </div>
-                    <div class="info-card">
-                        <span class="card-eyebrow">“I want to keep this for later.”</span>
-                        <p><strong>→ Saved</strong></p>
-                    </div>
-                    <div class="info-card">
-                        <span class="card-eyebrow">“I want to see what I've achieved.”</span>
-                        <p><strong>→ Passport &amp; Stamps</strong></p>
-                    </div>
-                    <div class="info-card">
-                        <span class="card-eyebrow">“I prefer personal progress over competition.”</span>
-                        <p><strong>→ Profile</strong> — personal collection</p>
                     </div>
                 </div>
 
@@ -311,7 +258,7 @@
                             navigation tabs: Explore, Saved, Passport and Profile.
                         </p>
 
-                        <div class="structure-image-box">
+                        <div class="structure-image-box lightbox-trigger" tabindex="0" role="button" aria-label="Open Information Architecture diagram in a larger view" data-lightbox-src="images/InformationArchitecture.png" data-lightbox-alt="WAYO information architecture and sitemap">
                             <img src="images/InformationArchitecture.png" alt="WAYO information architecture and sitemap">
                         </div>
                     </div>
@@ -325,7 +272,7 @@
                     </div>
 
                     <div class="UF-right">
-                        <div class="UF-image">
+                        <div class="UF-image lightbox-trigger" tabindex="0" role="button" aria-label="Open Core User Flow diagram in a larger view" data-lightbox-src="images/UserFlow.png" data-lightbox-alt="WAYO core user flow">
                             <img src="images/UserFlow.png" alt="WAYO core user flow">
                         </div>
 
@@ -343,13 +290,15 @@
                 <div class="final-design-heading">
                     <h2>Final Product<br>(UI)</h2>
                     <p>
-                        Each screen answers a specific question a user has before, during or after a quest: What
-                        should I expect? Is this worth my time? Where am I now? What have I achieved?
+                        Each screen answers a specific question a user has before, during or after a quest — a
+                        ready-made, self-guided local route with a handful of stops: What should I expect? Is this
+                        worth my time? Where am I now? What have I achieved?
                     </p>
                 </div>
 
                 <div class="final-design-grid-row">
                     <div class="final-design-copy">
+                        <p class="design-insight">Insight: time, not interest, was the real barrier to trying somewhere new.</p>
                         <span class="design-label">Explore</span>
                         <h3>Reducing the effort of finding somewhere new</h3>
                         <p>
@@ -367,12 +316,13 @@
 
                 <div class="final-design-grid-row">
                     <div class="final-design-copy">
+                        <p class="design-insight">Insight: “what I'll get out of this place” mattered before committing.</p>
                         <span class="design-label">Quest Detail</span>
                         <h3>Helping users decide before they commit</h3>
                         <p>
-                            Research showed that distance, time, difficulty and accessibility directly affect whether
-                            someone starts a quest. The Quest Detail screen surfaces this information clearly before
-                            the "Start quest" step.
+                            Research showed that distance, time, difficulty, cost and accessibility directly affect
+                            whether someone starts a quest. The Quest Detail screen surfaces this information clearly
+                            before the "Start quest" step.
                         </p>
                     </div>
 
@@ -384,6 +334,7 @@
 
                 <div class="final-design-grid-row">
                     <div class="final-design-copy">
+                        <p class="design-insight">Insight: people wanted to know what's next, not just before starting.</p>
                         <span class="design-label">Active Quest</span>
                         <h3>Turning discovery into action</h3>
                         <p>
@@ -400,11 +351,14 @@
 
                 <div class="final-design-grid-row">
                     <div class="final-design-copy">
+                        <p class="design-insight">Insight: “no ads, no pressure” — personal progress over competition.</p>
                         <span class="design-label">Passport</span>
                         <h3>Progress without competition</h3>
                         <p>
-                            The Passport turns completed quests into a personal collection of stamps, reinforcing
-                            progress through memory rather than rankings or leaderboards.
+                            The Passport records a user's exploration progress, and each completed quest earns a
+                            stamp — a small badge tied to that specific place. Together they turn completed quests
+                            into a personal collection, reinforcing progress through memory rather than rankings or
+                            leaderboards.
                         </p>
                     </div>
 
@@ -424,9 +378,10 @@
                     </div>
                     <div class="split-content">
                         <p>
-                            WAYO did not stop at a Figma prototype. The MVP was developed and deployed as a working
-                            mobile-first product, allowing the experience to be tested beyond controlled usability
-                            sessions.
+                            WAYO didn't stop at a Figma prototype — I built it myself: React and Tailwind CSS on the
+                            frontend, Node.js/Express and MySQL on the backend, Leaflet for the map and route
+                            tracking, deployed on Railway. That let me test the real experience beyond controlled
+                            usability sessions.
                         </p>
                         <p>
                             Launching the product introduced another feedback layer: I can now compare design
@@ -447,8 +402,8 @@
                     <div class="split-content">
                         <p>
                             Amplitude is connected to the live product to help understand how users interact with
-                            WAYO after launch. This creates a feedback loop between research, design decisions and
-                            actual product behaviour.
+                            WAYO after launch. Now that it's tracking real usage, the questions I want it to help
+                            answer are:
                         </p>
                     </div>
                 </div>
@@ -470,6 +425,10 @@
                         <span class="card-eyebrow">Completion</span>
                         <p>Where do users continue or leave the quest flow?</p>
                     </div>
+                    <div class="info-card">
+                        <span class="card-eyebrow">Retention</span>
+                        <p>Do people come back to start another quest after finishing one?</p>
+                    </div>
                 </div>
                 <!-- TODO: add an Amplitude dashboard screenshot here when available -->
             </section>
@@ -479,10 +438,10 @@
             <section>
                 <div class="split-section">
                     <div class="split-label">
-                        <h2>What's<br>Next</h2>
+                        <h2>Product<br>Roadmap</h2>
                     </div>
                     <div class="split-content">
-                        <p>WAYO is a live MVP and the next stage focuses on making the exploration experience more complete and scalable.</p>
+                        <p>WAYO is a live MVP, and these are the next priorities — shaped by what research and early usage are already pointing to, not a feature wishlist.</p>
                     </div>
                 </div>
 
@@ -492,16 +451,16 @@
                         <p>Improve live location tracking and route guidance so users can follow quests more confidently while walking.</p>
                     </div>
                     <div class="info-card">
+                        <span class="card-eyebrow">User accounts</span>
+                        <p>Introduce authentication with Google and Apple so users can securely keep their saved quests, completed quests, stamps and progress across devices.</p>
+                    </div>
+                    <div class="info-card">
                         <span class="card-eyebrow">More quests</span>
                         <p>Expand the quest library across London and gradually cover more neighbourhoods and types of experiences.</p>
                     </div>
                     <div class="info-card">
                         <span class="card-eyebrow">Richer visual content</span>
                         <p>Add more location and quest photography so users can better understand the atmosphere and value of an experience before starting.</p>
-                    </div>
-                    <div class="info-card">
-                        <span class="card-eyebrow">User accounts</span>
-                        <p>Introduce authentication with Google and Apple so users can securely keep their saved quests, completed quests, stamps and progress across devices.</p>
                     </div>
                 </div>
             </section>
@@ -557,5 +516,54 @@
             </section>
         </div>
     </main>
+
+    <div class="lightbox-overlay" id="lightbox-overlay" aria-hidden="true">
+        <button type="button" class="lightbox-close" id="lightbox-close" aria-label="Close image">×</button>
+        <img src="" alt="" id="lightbox-image">
+    </div>
+
+    <script>
+        (function () {
+            var overlay = document.getElementById('lightbox-overlay');
+            var img = document.getElementById('lightbox-image');
+            var closeBtn = document.getElementById('lightbox-close');
+            var triggers = document.querySelectorAll('.lightbox-trigger');
+
+            function openLightbox(src, alt) {
+                img.src = src;
+                img.alt = alt || '';
+                overlay.classList.add('is-open');
+                overlay.setAttribute('aria-hidden', 'false');
+                document.body.style.overflow = 'hidden';
+            }
+
+            function closeLightbox() {
+                overlay.classList.remove('is-open');
+                overlay.setAttribute('aria-hidden', 'true');
+                document.body.style.overflow = '';
+                img.src = '';
+            }
+
+            triggers.forEach(function (el) {
+                el.addEventListener('click', function () {
+                    openLightbox(el.getAttribute('data-lightbox-src'), el.getAttribute('data-lightbox-alt'));
+                });
+                el.addEventListener('keydown', function (e) {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        openLightbox(el.getAttribute('data-lightbox-src'), el.getAttribute('data-lightbox-alt'));
+                    }
+                });
+            });
+
+            closeBtn.addEventListener('click', closeLightbox);
+            overlay.addEventListener('click', function (e) {
+                if (e.target === overlay) closeLightbox();
+            });
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Escape' && overlay.classList.contains('is-open')) closeLightbox();
+            });
+        })();
+    </script>
 </body>
 </html>
