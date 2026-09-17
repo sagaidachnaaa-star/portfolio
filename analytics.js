@@ -22,7 +22,11 @@ if (window.amplitude) {
 
       // Turn these off to avoid noisy events
       formInteractions: false,
-      elementInteractions: false
+      elementInteractions: {
+      viewportContentUpdated: {
+        enabled: false
+      }
+    },
     }
   });
 }
