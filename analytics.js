@@ -2,7 +2,7 @@
 // Amplitude Analytics — Portfolio
 // ---------------------------------------------
 
-const AMPLITUDE_API_KEY = "d2371bbd6b46b59bb561709817132604"
+const AMPLITUDE_API_KEY = "d2371bbd6b46b59bb561709817132604";
 
 
 // ---------------------------------------------
@@ -10,25 +10,36 @@ const AMPLITUDE_API_KEY = "d2371bbd6b46b59bb561709817132604"
 // ---------------------------------------------
 
 if (window.amplitude) {
-  window.amplitude.init(AMPLITUDE_API_KEY, {
-    serverZone: "EU",
 
-    autocapture: {
-      // Useful for portfolio analytics
-      pageViews: true,
-      sessions: true,
-      attribution: true,
-      fileDownloads: true,
+  window.amplitude
+    .init(AMPLITUDE_API_KEY, {
+      serverZone: "EU",
 
-      // Turn these off to avoid noisy events
-      formInteractions: false,
-      elementInteractions: {
-      viewportContentUpdated: {
-        enabled: false
+      autocapture: {
+        pageViews: true,
+        sessions: true,
+        attribution: true,
+        fileDownloads: true,
+
+        // Disable noisy automatic interactions
+        formInteractions: false,
+        elementInteractions: false
       }
-    },
-    }
-  });
+    })
+    .promise
+    .then(() => {
+      console.log("✅ Amplitude initialized");
+
+      // TEST EVENT
+      window.amplitude.track("Portfolio Test", {
+        page: window.location.pathname
+      });
+
+      console.log("✅ Portfolio Test event sent");
+    });
+
+} else {
+  console.error("❌ Amplitude SDK not loaded");
 }
 
 
@@ -37,12 +48,15 @@ if (window.amplitude) {
 // ---------------------------------------------
 
 function trackEvent(eventName, properties = {}) {
-  if (!window.amplitude) return;
+
+  if (!window.amplitude) {
+    console.error("Amplitude not available");
+    return;
+  }
 
   window.amplitude.track(eventName, {
     ...properties,
 
-    // Useful context added automatically
     page_title: document.title,
     page_url: window.location.href,
     page_path: window.location.pathname
@@ -55,6 +69,7 @@ function trackEvent(eventName, properties = {}) {
 // ---------------------------------------------
 
 document.addEventListener("click", function (event) {
+
   const element = event.target.closest("[data-analytics]");
 
   if (!element) return;
@@ -63,25 +78,23 @@ document.addEventListener("click", function (event) {
 
   const properties = {};
 
-  // Project card
   if (element.dataset.project) {
     properties.project_name = element.dataset.project;
   }
 
-  // Where the click happened
   if (element.dataset.location) {
     properties.location = element.dataset.location;
   }
 
-  // External destination e.g. LinkedIn
   if (element.dataset.destination) {
     properties.destination = element.dataset.destination;
   }
 
-  // Contact method e.g. Email
   if (element.dataset.method) {
     properties.method = element.dataset.method;
   }
+
+  console.log("📊 Tracking:", eventName, properties);
 
   trackEvent(eventName, properties);
 });
