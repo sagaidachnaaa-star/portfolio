@@ -2,7 +2,7 @@
 // Amplitude Analytics — Portfolio
 // ---------------------------------------------
 
-const AMPLITUDE_API_KEY = "YOUR_AMPLITUDE_API_KEY";
+const AMPLITUDE_API_KEY = "d2371bbd6b46b59bb561709817132604"
 
 
 // ---------------------------------------------
