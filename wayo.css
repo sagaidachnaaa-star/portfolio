@@ -1075,13 +1075,6 @@
 .wayo-page .learned-right {
     min-width: 0;
 }
-.project-hero-image,
-.project-hero-video {
-    width: 100%;
-    display: block;
-    border-radius: 24px;
-    object-fit: cover;
-}
 
 /* Responsive */
 @media (max-width: 1024px) {

@@ -95,7 +95,21 @@
     border-radius: 20px;
     flex-shrink: 0;
 }
+/* WAYO HERO VIDEO */
 
+.wayo-page .project-mockups {
+    width: 100%;
+    margin-top: 22px;
+}
+
+.wayo-page .project-hero-video {
+    width: 100% !important;
+    max-width: none !important;
+    height: auto !important;
+    display: block;
+    object-fit: contain !important;
+    border-radius: 24px;
+}
 @media (max-width: 1024px) {
     .wayo-page .final-design-image {
         padding: 28px;
